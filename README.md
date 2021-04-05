@@ -8,7 +8,7 @@ First method places folder or file into an archive file and then encrypts archiv
 
 Second method encrypts individual files located in hierarchy of AES folder.  This method is always faster than first method since folders are not archived into one file.    Folders of any size can be encrypted.  File will not be encrypted if it exceeds device limit discussed above.  Application will show list of files not encrypted.  Limitation of this method is files in a folder are visible.  This limitation can be minimized by using generic folder and file names such as Folder01 and File01.  Sharing data using this method is more complex since multiple folders and files need to be exchanged.
 
-This App requires library files LibMainPageCommon.cs, LibZipArchive.cs, LibAesEncryption.cs, and LibUtilitiesFile.cs located in Library-Files-for-other-Repository-Apps to be linked under folder named 'Library' to compile.
+This App requires library files LibMainPageCommon.cs, LibZipArchive.cs, LibAesEncryption.cs, and LibUtilitiesFile.cs located in Library-Files-for-other-Repository-Apps to be linked under folder named 'Libraries' to compile.
 
 I no longer intend to support this App so placing code on GitHub so others can use if useful.
 
