@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MP_TblkAppName" xml:space="preserve">
+    <value>Encryption Locker</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="AT_TblkPageTitle" xml:space="preserve">
+    <value>Toggle button information</value>
+  </data>
+  <data name="UMP_ButContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="UMP_ButLockerReset" xml:space="preserve">
+    <value>Reset locker folder</value>
+  </data>
+  <data name="UMP_Reset_Aborted" xml:space="preserve">
+    <value>Reset aborted</value>
+  </data>
+  <data name="EP_Error_LockerAccess" xml:space="preserve">
+    <value>Could not open folder or get read and write access to folder.</value>
+  </data>
+  <data name="EP_Error_FilePath" xml:space="preserve">
+    <value>File path to locker folder does not match configuration value.  Did you rename or move or delete locker folder?</value>
+  </data>
+  <data name="EP_Error_LockerReset_Required" xml:space="preserve">
+    <value>Click following button to reset locker folder.  Select same folder and enter password used to create folder.</value>
+  </data>
+  <data name="EP_Error_LockerNotFound" xml:space="preserve">
+    <value>Could not find locker folder.  Did you rename or move or delete folder?  Did you remove USB drive, SD card, or removable drive that folder was on?  Exit application and insert removed device and try again.  Otherwise click following button to reset locker folder.</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg01" xml:space="preserve">
+    <value>Found locker folder at</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg02" xml:space="preserve">
+    <value>Application has read and write access to folder</value>
+  </data>
+  <data name="EP_Error_Password_NotValid" xml:space="preserve">
+    <value>Password not valid.  Please try again.  Locker reset will be initiated after five attempts.</value>
+  </data>
+  <data name="EP_TblkPageMsg" xml:space="preserve">
+    <value>Enter password to unlock and open locker folder.</value>
+  </data>
+  <data name="EP_TblkPageTitle" xml:space="preserve">
+    <value>Application password entry</value>
+  </data>
+  <data name="UMP_Error_Password_Hash" xml:space="preserve">
+    <value>Could not hash password.  Try different password.</value>
+  </data>
+  <data name="HP_ButDecryptLocker" xml:space="preserve">
+    <value>Decrypt locker folder</value>
+  </data>
+  <data name="HP_ButDecryptFile" xml:space="preserve">
+    <value>Decrypt file</value>
+  </data>
+  <data name="HP_ButDeleteFile" xml:space="preserve">
+    <value>Secure delete file</value>
+  </data>
+  <data name="HP_ButDeleteFolder" xml:space="preserve">
+    <value>Secure delete folder</value>
+  </data>
+  <data name="HP_ButEncryptLocker" xml:space="preserve">
+    <value>Encrypt locker folder</value>
+  </data>
+  <data name="HP_ButEncryptFile" xml:space="preserve">
+    <value>Encrypt file</value>
+  </data>
+  <data name="HP_ButEncryptFolder" xml:space="preserve">
+    <value>Encrypt folder</value>
+  </data>
+  <data name="HP_ButLockerView" xml:space="preserve">
+    <value>View locker folder</value>
+  </data>
+  <data name="HP_LockerAvailable" xml:space="preserve">
+    <value>Current locker folder is</value>
+    <comment>Show path to Locker.</comment>
+  </data>
+  <data name="HP_LockerAvailable_SampleFiles" xml:space="preserve">
+    <value>Created sample folders and files in locker folder to experiment with.  Open one of the files to view application instructions and tips.</value>
+  </data>
+  <data name="HP_TblkMsgSettings" xml:space="preserve">
+    <value>Click configuration button to change following settings</value>
+  </data>
+  <data name="HP_TblkPageTitle" xml:space="preserve">
+    <value>Application encryption and decryption</value>
+  </data>
+  <data name="UMP_LockerReset_Msg01" xml:space="preserve">
+    <value>You can have multiple locker folders. Each folder can have unique password.</value>
+  </data>
+  <data name="MP_ButAbout" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MP_ButSettings" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="UMP_LockerReset_Title" xml:space="preserve">
+    <value>Reset locker folder?</value>
+  </data>
+  <data name="UMP_Reset_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="UMP_Reset_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SP_PwBoxPw1_PlaceholderText" xml:space="preserve">
+    <value>Enter password</value>
+  </data>
+  <data name="SF_ButFolderPicker" xml:space="preserve">
+    <value>Locker folder configuration</value>
+  </data>
+  <data name="SF_Error_Picker_FolderException" xml:space="preserve">
+    <value>Cannot get read and write access to selected folder.  Folder is in a protected location.  Create folder in a different location.</value>
+  </data>
+  <data name="SF_CboxSamples" xml:space="preserve">
+    <value>Create sample folders and files in locker folder.</value>
+  </data>
+  <data name="SF_CreateSample_Intro" xml:space="preserve">
+    <value>Instructions and advice:</value>
+  </data>
+  <data name="SF_CreateSample_Closing" xml:space="preserve">
+    <value>Learn to use application by encrypting and decrypting sample folders and files created in locker folder.  Please rate and review application.</value>
+  </data>
+  <data name="SF_SampleFilename2" xml:space="preserve">
+    <value>Sample file</value>
+  </data>
+  <data name="SF_SampleFoldername" xml:space="preserve">
+    <value>Sample folder</value>
+  </data>
+  <data name="SF_Msg01" xml:space="preserve">
+    <value>Create new folder or select existing folder.</value>
+  </data>
+  <data name="SF_Msg02" xml:space="preserve">
+    <value>Locker folder reset option was selected or this is first start of application.</value>
+  </data>
+  <data name="SF_TblkPageTitle" xml:space="preserve">
+    <value>Application folder configuration</value>
+  </data>
+  <data name="SP_PwBoxPw2_PlaceholderText" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="SP_Success_Password_Match" xml:space="preserve">
+    <value>Passwords match.  Click following button to use password for locker folder.</value>
+  </data>
+  <data name="SP_Error_Password_Setup" xml:space="preserve">
+    <value>Could not save locker folder setup data.  Please try different password.</value>
+  </data>
+  <data name="SP_Error_Password_Length" xml:space="preserve">
+    <value>Password must have at least four characters.  Please try different password.</value>
+  </data>
+  <data name="UMP_SP_Msg03" xml:space="preserve">
+    <value>Application will reject invalid passwords.  Minimum password length is four characters.</value>
+  </data>
+  <data name="UMP_SP_Msg01" xml:space="preserve">
+    <value>Application does not save passwords anywhere.  You will lose access to encrypted data if you forget password used to encrypt it.</value>
+  </data>
+  <data name="SP_TblkPageTitle" xml:space="preserve">
+    <value>Application password configuration</value>
+  </data>
+  <data name="ST_ButAboutToggles" xml:space="preserve">
+    <value>Toggle button information</value>
+  </data>
+  <data name="ST_TblkPageTitle" xml:space="preserve">
+    <value>Application configuration</value>
+  </data>
+  <data name="ST_TogDeleteSecure" xml:space="preserve">
+    <value>Secure delete mode</value>
+  </data>
+  <data name="ST_TogVerbose" xml:space="preserve">
+    <value>Verbose mode</value>
+  </data>
+  <data name="AB_ButCryptoLink1" xml:space="preserve">
+    <value>Cryptography</value>
+  </data>
+  <data name="AB_ButCryptoLink2" xml:space="preserve">
+    <value>Advanced Encryption Standard (AES)</value>
+  </data>
+  <data name="AB_ButCryptoLink3" xml:space="preserve">
+    <value>Initialization vector</value>
+  </data>
+  <data name="AB_ButCryptoLink4" xml:space="preserve">
+    <value>Block cipher mode</value>
+  </data>
+  <data name="AB_ButProgrammerEmail" xml:space="preserve">
+    <value>Email Support</value>
+  </data>
+  <data name="AB_TblkLink" xml:space="preserve">
+    <value>Click following website links to learn more about cryptography.</value>
+  </data>
+  <data name="AB_TblkPageTitle" xml:space="preserve">
+    <value>Application information</value>
+  </data>
+  <data name="AB_TblkPayment" xml:space="preserve">
+    <value>Application has unlimited free trial period for evaluation.  Buy once and use on all your Windows 10 devices.  Please rate and review application.</value>
+  </data>
+  <data name="AB_TblkProgrammer" xml:space="preserve">
+    <value>Use following email link to report errors or offer other comments or suggestions.  Application version is</value>
+  </data>
+  <data name="UMP_AB_Msg06" xml:space="preserve">
+    <value>Application verifies if purchase has been completed on each start.  This verification procedure will be skipped after purchase is confirmed.  Application will remain in trial mode until purchased.  Trial mode is fully functional other than inconvenience of this verification procedure on each start.</value>
+  </data>
+  <data name="UMP_AB_Msg07" xml:space="preserve">
+    <value>It may take a moment for folder changes to appear after encrypting or decrypting items.  Occasionally folder view will not update.  You may need to manually refresh folder to view result.</value>
+  </data>
+  <data name="UMP_AB_Msg08" xml:space="preserve">
+    <value>Windows 10 does not allow programmer to specify exact location folder and file pickers open too.  Programmer can only suggest starting location from limited number of general locations.  Result is picker may open to unexpected location or attempt to open location that no longer exists since folder was encrypted to archive file.  You may need to manually navigate back to locker folder to select desired item.</value>
+  </data>
+  <data name="UMP_AB_Msg11" xml:space="preserve">
+    <value>DISCLAIMER: You assume all risk of using this application.  Programmer has done extensive research and testing to validate application works securely and properly.  It is your responsibility to test this application using a copy of your data to assure application performs as expected before using any original data.  Application does not save your password anywhere.  You will not be able to decrypt or access your data if you forget password used to encrypt data.</value>
+  </data>
+  <data name="UMP_ToggleDeleteSecure_Msg" xml:space="preserve">
+    <value>Default setting for secure delete mode is off.  Secure delete mode adds considerable processing time and may not be required. This mode encrypts original item and any temporary items used in process with random password and random initialization vector before deletion.  These items cannot be recovered.  Windows 10 does not delete content of item on deletion.  It only removes item name from database and shows occupied space available.  Content of deleted item may still exist on device since Windows 10 uses various caches including Recycle Bin, File History, Hibernation file, Page file, Temp files, and others.</value>
+  </data>
+  <data name="UMP_ToggleVerbose_Msg" xml:space="preserve">
+    <value>Default setting for verbose mode is on.  Verbose mode displays detailed messages, suggestions, and tips at various locations.  Turn verbose mode off to display abbreviated messages.</value>
+  </data>
+  <data name="UMP_SP_Msg02" xml:space="preserve">
+    <value>Enter password for locker folder.</value>
+  </data>
+  <data name="HP_Success_Encrypt" xml:space="preserve">
+    <value>Encrypted</value>
+  </data>
+  <data name="HP_Error_Encrypt_ProcessFail" xml:space="preserve">
+    <value>since encryption process failed</value>
+  </data>
+  <data name="HP_Error_Encrypt_FileIsEncrypted" xml:space="preserve">
+    <value>since already encrypted</value>
+  </data>
+  <data name="HP_Error_HierarchyOutside" xml:space="preserve">
+    <value>since located outside of folder</value>
+  </data>
+  <data name="UMP_Error_Picker_NothingPicked" xml:space="preserve">
+    <value>Did not pick anything</value>
+  </data>
+  <data name="HP_Success_Decrypt" xml:space="preserve">
+    <value>Decrypted</value>
+  </data>
+  <data name="HP_Error_Decrypt_ProcessFail" xml:space="preserve">
+    <value>since decryption process failed</value>
+  </data>
+  <data name="HP_Error_Decrypt_ItemExistDest" xml:space="preserve">
+    <value>Could not decrypt {0} since {1} already contains item with name {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_ParentFolder" xml:space="preserve">
+    <value>since could not get read and write access to parent folder</value>
+  </data>
+  <data name="MP_UnhandledException_Msg" xml:space="preserve">
+    <value>Unhandled exception occurred in method:</value>
+  </data>
+  <data name="MP_Success_FolderCheck_NoArchive" xml:space="preserve">
+    <value>Found or created folder</value>
+  </data>
+  <data name="MP_Error_FolderCheck_NoArchive" xml:space="preserve">
+    <value>Could not find or create folder</value>
+  </data>
+  <data name="HP_Error_Encrypt_ItemExistDest" xml:space="preserve">
+    <value>Could not encrypt {0} since {1} already contains item with name {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_ProcessingItem" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="HP_PickFile_Delete" xml:space="preserve">
+    <value>Select file to secure delete</value>
+  </data>
+  <data name="HP_PickFolder_Delete" xml:space="preserve">
+    <value>Select folder to secure delete</value>
+  </data>
+  <data name="HP_Success_FileExplorer" xml:space="preserve">
+    <value>File explorer opened to {0}</value>
+  </data>
+  <data name="HP_Error_DeleteSecure" xml:space="preserve">
+    <value>Could not secure delete</value>
+  </data>
+  <data name="HP_Success_DeleteSecure" xml:space="preserve">
+    <value>Secure deleted</value>
+  </data>
+  <data name="HP_ButDecryptFolder" xml:space="preserve">
+    <value>Decrypt folder</value>
+  </data>
+  <data name="SF_Msg03" xml:space="preserve">
+    <value>Windows 10 does not allow applications to access personal folders and files without permission.  Create new folder or select existing folder to give application permission.</value>
+  </data>
+  <data name="SF_Msg05" xml:space="preserve">
+    <value>Click following button to set location and name of locker folder.</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedPlural" xml:space="preserve">
+    <value>items not processed</value>
+  </data>
+  <data name="HP_ButCreateFolderNoArchive" xml:space="preserve">
+    <value>Create AES folder</value>
+  </data>
+  <data name="HP_PickFile_Decrypt" xml:space="preserve">
+    <value>Select file to decrypt</value>
+  </data>
+  <data name="SF_SampleFilename1" xml:space="preserve">
+    <value>Instructions and advice</value>
+  </data>
+  <data name="HP_Error_Decrypt_FolderFilesFailed" xml:space="preserve">
+    <value>Decrypted {0} files in {1}</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Encrypt_FolderFilesFailed" xml:space="preserve">
+    <value>Encrypted {0} files in {1}</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="SF_Success_Picker_Msg1" xml:space="preserve">
+    <value>Folder selected was:</value>
+  </data>
+  <data name="HP_Error_Encrypt_WrapperFolder" xml:space="preserve">
+    <value>since could not create wrapper folder</value>
+  </data>
+  <data name="HP_Error_Encrypt_FlagFile" xml:space="preserve">
+    <value>since could not create flag file</value>
+  </data>
+  <data name="HP_Error_Decrypt_FileListFailed" xml:space="preserve">
+    <value>Decrypted {0} but could not get list of files, decrypted content is in {1}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Decrypt_FileGetFailed" xml:space="preserve">
+    <value>Decrypted {0} but could not get {1}, decrypted file was left in folder {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="UMP_AB_Msg01" xml:space="preserve">
+    <value>Application encrypts and decrypts folders and files using the Advanced Encryption Standard (AES).  Data is stored independent of application and will not be deleted if application is uninstalled.  Decrypted data is accessible by any application installed on device.</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="UMP_AB_Msg02" xml:space="preserve">
+    <value>Encryption and decryption processes use one contiguous block of device memory.  Maximum file size that can be processed is dependent on available device memory up to Windows 10 limit.  Limit on 64-bit devices is four gibibyte.  Limit on 32-bit devices is about two gibibyte.  Programmer has twelve gibibyte computer and has processed four gibibyte files.  Processes used all device memory and maximized use of SSD for extended time.  You may not be able to decrypt files on less capable device.  Workaround is limit file size to capability of minimum device used.</value>
+  </data>
+  <data name="UMP_AB_Msg03" xml:space="preserve">
+    <value>Application provides two methods to encrypt and decrypt data.  Each method has advantages and disadvantages.  Choose which method to use depending on data size and intended use.</value>
+  </data>
+  <data name="UMP_AB_Msg04" xml:space="preserve">
+    <value>First method places folder or file into an archive file and then encrypts archive file.  Files in folder cannot be seen since they were placed into one file.  Sharing content is simple since only one file needs to be exchanged.  Limitation of this method is it creates one large file to encrypt.  This method will exceed device memory limits more often than second method since encrypting one large file versus many smaller files.  This method is always slower than second method.</value>
+  </data>
+  <data name="UMP_AB_Msg05" xml:space="preserve">
+    <value>Second method encrypts individual files located in hierarchy of AES folder.  This method is always faster than first method since folders are not archived into one file.    Folders of any size can be encrypted.  File will not be encrypted if it exceeds device limit discussed above.  Application will show list of files not encrypted.  Limitation of this method is files in a folder are visible.  This limitation can be minimized by using generic folder and file names such as Folder01 and File01.  Sharing data using this method is more complex since multiple folders and files need to be exchanged.</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOff" xml:space="preserve">
+    <value>Secure delete mode is off</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOn" xml:space="preserve">
+    <value>Secure delete mode is on</value>
+  </data>
+  <data name="ST_ModeToggleMsg" xml:space="preserve">
+    <value>Change application configuration using above toggle switches.  Click button above for more information about the toggle switches.</value>
+  </data>
+  <data name="ST_ModeVerboseOff" xml:space="preserve">
+    <value>Verbose mode is off</value>
+  </data>
+  <data name="ST_ModeVerboseOn" xml:space="preserve">
+    <value>Verbose mode is on</value>
+  </data>
+  <data name="EP_PwBox_PlaceholderText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="SF_Msg04" xml:space="preserve">
+    <value>File is encrypted if extension is 'arc' or 'aes'.  Windows 10 does not show file extensions by default.  Turn file extensions on by opening File Explorer.  Click View tab in upper menu to expose Ribbon menu.  Check box next to File name extensions.</value>
+  </data>
+  <data name="UMP_Reset_Msg" xml:space="preserve">
+    <value>Reset will not delete any items in your locker folder.</value>
+  </data>
+  <data name="UMP_LockerReset_Msg02" xml:space="preserve">
+    <value>You can create separate locker folders for each person or group you exchange confidential information with.  Attach encrypted files from this application to emails and then send them back and forth securely.  You may want to create a master password file in your primary locker folder to save passwords used in your other locker folders.</value>
+  </data>
+  <data name="UMP_LockerReset_Msg03" xml:space="preserve">
+    <value>Click following button to switch to different locker folder.  Then enter same password used when folder was originally created.</value>
+  </data>
+  <data name="MP_UnhandledException_Type" xml:space="preserve">
+    <value>Exception type:</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedSingle" xml:space="preserve">
+    <value>item not processed</value>
+  </data>
+  <data name="SF_Success_Picker_Msg2" xml:space="preserve">
+    <value>Click following button to use this folder.  Click above button to select different folder.</value>
+  </data>
+  <data name="SF_Msg06" xml:space="preserve">
+    <value>Selected folder becomes locker folder.  Application will have read and write access to folders and files inside of selected folder.</value>
+  </data>
+  <data name="UMP_AB_Msg09" xml:space="preserve">
+    <value>Change locker password by decrypting all items in locker folder.  Then reset locker folder.  Select same folder but use new password.  Items in folder will then be encrypted using new password.</value>
+  </data>
+  <data name="UMP_SP_Msg04" xml:space="preserve">
+    <value>You can enter almost anything for password.  Longer and complex passwords are much more resistant to hacking.</value>
+  </data>
+  <data name="HP_Timer" xml:space="preserve">
+    <value>({0:N2} seconds)</value>
+  </data>
+  <data name="HP_Error_Decrypt" xml:space="preserve">
+    <value>Could not decrypt</value>
+  </data>
+  <data name="HP_Error_Encrypt" xml:space="preserve">
+    <value>Could not encrypt</value>
+  </data>
+  <data name="A Comment" xml:space="preserve">
+    <value>English = en-US
+
+In some following resources, use complete concatenated output string for translation.  In those cases, fill variable names using FileABC and FolderXYZ.  These cases are flagged in Comment column via 'Translate whole phrase.'
+
+Note: Right-to-Left languages such as Arabic and Hebrew will not translate well in this application since it uses concatenation extensively.</value>
+    <comment>Programmer comment about translations.  Value not used in application.</comment>
+  </data>
+  <data name="HP_Error_DeleteSecure_ProcessFail" xml:space="preserve">
+    <value>since secure delete process failed</value>
+  </data>
+  <data name="MP_ButBack" xml:space="preserve">
+    <value></value>
+    <comment>Back button = U+E72B in Segoe MDL2 Assets font..  See notes top of MainPage.xaml</comment>
+  </data>
+  <data name="UMP_AB_Msg10" xml:space="preserve">
+    <value>If you are crossing country borders authorities may ask you to decrypt any encrypted data on device or they may seize device.  One solution to protect data is delete this application before crossing border and then reinstall application on other side of border.  Data will remain on device and will appear as any ordinary folders and files.  Data cannot be accessed if application is not installed.  Also consider hiding this application by removing from Start Menu and Taskbar.</value>
+  </data>
+  <data name="HP_Error_LockerNotFound" xml:space="preserve">
+    <value>Could not find locker folder.  Did you rename or move or delete locker folder while application was open?  Exit application and start again to reset locker folder.</value>
+  </data>
+  <data name="HP_PickFile_Encrypt" xml:space="preserve">
+    <value>Select file to encrypt</value>
+  </data>
+  <data name="HP_PickFolder_Decrypt" xml:space="preserve">
+    <value>Select folder to decrypt</value>
+  </data>
+  <data name="ST_CboxItem_LanguageDevice" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="ST_CboxItem_LanguageEN" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ST_CboxItem_LanguageES" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="ST_CboxLanguage_PlaceholderText" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="ST_TblkLanguageMsg" xml:space="preserve">
+    <value>Select application language.  Application will close if selection is changed.  Selected language will load next application start.</value>
+  </data>
+  <data name="EP_Error_LockdownActivated" xml:space="preserve">
+    <value>Locker reset required since incorrect password entered five times.</value>
+  </data>
+  <data name="HP_Error_FileLocked" xml:space="preserve">
+    <value>since file is locked.  Another application may be using file.</value>
+  </data>
+  <data name="HP_Error_FolderLocked" xml:space="preserve">
+    <value>since folder is locked.  Another application may be using a file in the folder.</value>
+  </data>
+  <data name="HP_PickFolder_Encrypt" xml:space="preserve">
+    <value>Select folder to encrypt</value>
+  </data>
+  <data name="ST_ModeExitAppOff" xml:space="preserve">
+    <value>Exit application mode is off</value>
+  </data>
+  <data name="ST_ModeExitAppOn" xml:space="preserve">
+    <value>Exit application mode is on</value>
+  </data>
+  <data name="UMP_ToggleExitApp_Msg" xml:space="preserve">
+    <value>Default setting for exit application mode is off.  Application will not exit after locker folder is encrypted. Turn on exit application mode to exit application after locker folder is encrypted.</value>
+  </data>
+  <data name="ST_TogExitApp" xml:space="preserve">
+    <value>Exit application mode</value>
+  </data>
+  <data name="UMP_ButRateApp" xml:space="preserve">
+    <value>Evaluate and review this application</value>
+  </data>
+  <data name="ST_ApplicationReset_Title" xml:space="preserve">
+    <value>Reset application settings?</value>
+  </data>
+  <data name="ST_ButAppReset" xml:space="preserve">
+    <value>Reset Application</value>
+  </data>
+  <data name="ST_TblkAppResetMsg" xml:space="preserve">
+    <value>Reset application to default settings. </value>
+    <comment>Include space at end since value catenated.</comment>
+  </data>
+  <data name="ST_CboxItem_LanguageHI" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="SP_Error_Password_Match" xml:space="preserve">
+    <value>Passwords do not match.</value>
+  </data>
+  <data name="UMP_SP_Msg05" xml:space="preserve">
+    <value>Must use same password used to encrypt folder if switching to an existing folder that is encrypted.</value>
+  </data>
+  <data name="HP_ButPurchaseApp" xml:space="preserve">
+    <value>Purchase application</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg1" xml:space="preserve">
+    <value>Application price is:</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg2" xml:space="preserve">
+    <value>Application has not been purchased.</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg3" xml:space="preserve">
+    <value>Trial period is unlimited. This purchase check will occur on every start of application.</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseTrueMsg1" xml:space="preserve">
+    <value>Application has been purchased. Thank you!</value>
+  </data>
+  <data name="HP_PurchaseBuyMsg" xml:space="preserve">
+    <value>Attempting to purchase application.</value>
+  </data>
+  <data name="HP_PurchaseCheckMsg" xml:space="preserve">
+    <value>Checking if application has been purchased.</value>
+  </data>
+  <data name="UMP_Off" xml:space="preserve">
+    <value>Off</value>
+    <comment>OffContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="UMP_On" xml:space="preserve">
+    <value>On</value>
+    <comment>OnContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="ST_CboxItem_LanguageFR" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="ST_CboxItem_LanguageZH" xml:space="preserve">
+    <value>Chinese (Simplified)</value>
+  </data>
+</root>

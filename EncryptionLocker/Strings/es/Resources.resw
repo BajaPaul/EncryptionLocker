@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MP_TblkAppName" xml:space="preserve">
+    <value>Casillero de Encriptación</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="AT_TblkPageTitle" xml:space="preserve">
+    <value>Alternar la información del botón</value>
+  </data>
+  <data name="UMP_ButContinue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="UMP_ButLockerReset" xml:space="preserve">
+    <value>Restablecer carpeta del casillero</value>
+  </data>
+  <data name="UMP_Reset_Aborted" xml:space="preserve">
+    <value>Restablecer abortado</value>
+  </data>
+  <data name="EP_Error_LockerAccess" xml:space="preserve">
+    <value>No se pudo abrir la carpeta ni obtener acceso de lectura y escritura a la carpeta.</value>
+  </data>
+  <data name="EP_Error_FilePath" xml:space="preserve">
+    <value>La ruta de archivo a la carpeta casillero no coincide con el valor de configuración.  ¿Ha renombrado o desplazado o eliminado la carpeta del casillero?</value>
+  </data>
+  <data name="EP_Error_LockerReset_Required" xml:space="preserve">
+    <value>Haga clic en el botón siguiente para restablecer la carpeta del casillero.  Seleccione la misma carpeta y escriba la contraseña utilizada para crear la carpeta.</value>
+  </data>
+  <data name="EP_Error_LockerNotFound" xml:space="preserve">
+    <value>No se pudo encontrar la carpeta del casillero.  ¿Ha renombrado o desplazado o eliminado la carpeta?  ¿Ha quitado la unidad USB, la tarjeta SD o la unidad extraíble en la que estaba la carpeta?  Salga de la aplicación e inserte el dispositivo eliminado e inténtelo de nuevo.  De lo contrario, haga clic en el botón siguiente para restablecer la carpeta casillero.</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg01" xml:space="preserve">
+    <value>Carpeta de casillero encontrado en</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg02" xml:space="preserve">
+    <value>La aplicación tiene acceso de lectura y escritura a la carpeta</value>
+  </data>
+  <data name="EP_Error_Password_NotValid" xml:space="preserve">
+    <value>Contraseña no válida.  Por favor, inténtelo de nuevo.  El restablecimiento del casillero se iniciará después de cinco intentos.</value>
+  </data>
+  <data name="EP_TblkPageMsg" xml:space="preserve">
+    <value>Ingrese la contraseña para desbloquear y abrir la carpeta del casillero.</value>
+  </data>
+  <data name="EP_TblkPageTitle" xml:space="preserve">
+    <value>Entrada de contraseña de la aplicación</value>
+  </data>
+  <data name="UMP_Error_Password_Hash" xml:space="preserve">
+    <value>No se pudo hash la contraseña. Pruebe con una contraseña diferente.</value>
+  </data>
+  <data name="HP_ButDecryptLocker" xml:space="preserve">
+    <value>Descifrar carpeta del casillero</value>
+  </data>
+  <data name="HP_ButDecryptFile" xml:space="preserve">
+    <value>Descifrar archivo</value>
+  </data>
+  <data name="HP_ButDeleteFile" xml:space="preserve">
+    <value>Archivo de eliminación segura</value>
+  </data>
+  <data name="HP_ButDeleteFolder" xml:space="preserve">
+    <value>Carpeta de eliminación segura</value>
+  </data>
+  <data name="HP_ButEncryptLocker" xml:space="preserve">
+    <value>Cifrar carpeta del casillero</value>
+  </data>
+  <data name="HP_ButEncryptFile" xml:space="preserve">
+    <value>Cifrar archivo</value>
+  </data>
+  <data name="HP_ButEncryptFolder" xml:space="preserve">
+    <value>Cifrar carpeta</value>
+  </data>
+  <data name="HP_ButLockerView" xml:space="preserve">
+    <value>Ver carpeta del casillero</value>
+  </data>
+  <data name="HP_LockerAvailable" xml:space="preserve">
+    <value>La carpeta actual del casillero es</value>
+    <comment>Show path to Locker folder.</comment>
+  </data>
+  <data name="HP_LockerAvailable_SampleFiles" xml:space="preserve">
+    <value>Creé carpetas de muestra y archivos en la carpeta de casilleros para experimentar. Abra uno de los archivos para ver las instrucciones y consejos de la aplicación.</value>
+  </data>
+  <data name="HP_TblkMsgSettings" xml:space="preserve">
+    <value>Haga clic en el botón de configuración para cambiar las siguientes configuraciones</value>
+  </data>
+  <data name="HP_TblkPageTitle" xml:space="preserve">
+    <value>Cifrado y descifrado de aplicaciones</value>
+  </data>
+  <data name="UMP_LockerReset_Msg01" xml:space="preserve">
+    <value>Puedes tener múltiples carpetas de casillero. Cada carpeta puede tener una contraseña única.</value>
+  </data>
+  <data name="MP_ButAbout" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="MP_ButSettings" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="UMP_LockerReset_Title" xml:space="preserve">
+    <value>¿Restablecer la carpeta del casillero?</value>
+  </data>
+  <data name="UMP_Reset_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="UMP_Reset_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SP_PwBoxPw1_PlaceholderText" xml:space="preserve">
+    <value>Introducir la contraseña</value>
+  </data>
+  <data name="SF_ButFolderPicker" xml:space="preserve">
+    <value>Configuración de carpeta del casillero</value>
+  </data>
+  <data name="SF_Error_Picker_FolderException" xml:space="preserve">
+    <value>No se puede obtener acceso de lectura y escritura a la carpeta seleccionada.  La carpeta está en una ubicación protegida.  Cree una carpeta en una ubicación diferente.</value>
+  </data>
+  <data name="SF_CboxSamples" xml:space="preserve">
+    <value>Crear carpetas y archivos de muestra en la carpeta del casillero.</value>
+  </data>
+  <data name="SF_CreateSample_Intro" xml:space="preserve">
+    <value>Instrucciones y consejos:</value>
+  </data>
+  <data name="SF_CreateSample_Closing" xml:space="preserve">
+    <value>Aprenda a usar la aplicación mediante el cifrado y descifrado de carpetas de muestra y archivos creados en la carpeta del casilleros. Por favor califique y revise la solicitud.</value>
+  </data>
+  <data name="SF_SampleFilename2" xml:space="preserve">
+    <value>Archivo de muestra</value>
+  </data>
+  <data name="SF_SampleFoldername" xml:space="preserve">
+    <value>Carpeta de muestra</value>
+  </data>
+  <data name="SF_Msg01" xml:space="preserve">
+    <value>Cree una carpeta nueva o seleccione la carpeta existente.</value>
+  </data>
+  <data name="SF_Msg02" xml:space="preserve">
+    <value>Se ha seleccionado la opción de restablecimiento de carpeta de Locker o se inicia por primera vez la aplicación.</value>
+  </data>
+  <data name="SF_TblkPageTitle" xml:space="preserve">
+    <value>Configuración de carpeta de aplicación</value>
+  </data>
+  <data name="SP_PwBoxPw2_PlaceholderText" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="SP_Success_Password_Match" xml:space="preserve">
+    <value>Las contraseñas coinciden. Haga clic en el siguiente botón para usar la contraseña de la carpeta del casillero.</value>
+  </data>
+  <data name="SP_Error_Password_Setup" xml:space="preserve">
+    <value>No se pudo guardar los datos de configuración de la carpeta del casillero. Por favor intente una contraseña diferente.</value>
+  </data>
+  <data name="SP_Error_Password_Length" xml:space="preserve">
+    <value>La contraseña debe tener al menos cuatro caracteres. Por favor intente con una contraseña diferente</value>
+  </data>
+  <data name="UMP_SP_Msg03" xml:space="preserve">
+    <value>La aplicación rechazará las contraseñas no válidas. La longitud mínima de la contraseña es de cuatro caracteres.</value>
+  </data>
+  <data name="UMP_SP_Msg01" xml:space="preserve">
+    <value>La aplicación no guarda contraseñas en ningún lado. Perderá el acceso a los datos cifrados si olvida la contraseña utilizada para encriptarlo.</value>
+  </data>
+  <data name="SP_TblkPageTitle" xml:space="preserve">
+    <value>Configuración de contraseña de la aplicación</value>
+  </data>
+  <data name="ST_ButAboutToggles" xml:space="preserve">
+    <value>Alternar la información del botón</value>
+  </data>
+  <data name="ST_TblkPageTitle" xml:space="preserve">
+    <value>Configuración de la aplicación</value>
+  </data>
+  <data name="ST_TogDeleteSecure" xml:space="preserve">
+    <value>Modo eliminación segura</value>
+  </data>
+  <data name="ST_TogVerbose" xml:space="preserve">
+    <value>Modo detallado</value>
+  </data>
+  <data name="AB_ButCryptoLink1" xml:space="preserve">
+    <value>Criptografía</value>
+  </data>
+  <data name="AB_ButCryptoLink2" xml:space="preserve">
+    <value>Estándar de Encriptación Avanzado (AES)</value>
+  </data>
+  <data name="AB_ButCryptoLink3" xml:space="preserve">
+    <value>Vector de inicialización</value>
+  </data>
+  <data name="AB_ButCryptoLink4" xml:space="preserve">
+    <value>Modo de cifrado de bloque</value>
+  </data>
+  <data name="AB_ButProgrammerEmail" xml:space="preserve">
+    <value>Soporte de correo electrónico</value>
+  </data>
+  <data name="AB_TblkLink" xml:space="preserve">
+    <value>Haga clic en los siguientes enlaces a sitios web para obtener más información acerca de la criptografía.</value>
+  </data>
+  <data name="AB_TblkPageTitle" xml:space="preserve">
+    <value>Información de la aplicación</value>
+  </data>
+  <data name="AB_TblkPayment" xml:space="preserve">
+    <value>La aplicación tiene un período de prueba gratuito ilimitado para la evaluación. Compre una vez y úselo en todos sus dispositivos con Windows 10. Por favor califique y revise la solicitud.</value>
+  </data>
+  <data name="AB_TblkProgrammer" xml:space="preserve">
+    <value>Utilice el siguiente enlace de correo electrónico para informar errores u ofrecer otros comentarios o sugerencias. La versión de la aplicación es</value>
+  </data>
+  <data name="UMP_AB_Msg06" xml:space="preserve">
+    <value>La aplicación verifica si la compra se completó en cada inicio. Este procedimiento de verificación se saltará una vez confirmada la compra. La aplicación permanecerá en modo de prueba hasta que se compre. El modo de prueba es totalmente funcional, aparte de los inconvenientes de este procedimiento de verificación en cada inicio.</value>
+  </data>
+  <data name="UMP_AB_Msg07" xml:space="preserve">
+    <value>Puede pasar un momento hasta que aparezcan los cambios en la carpeta después de encriptar o desencriptar los elementos. Ocasionalmente, la vista de carpeta no se actualizará. Es posible que deba actualizar manualmente la carpeta para ver el resultado.</value>
+  </data>
+  <data name="UMP_AB_Msg08" xml:space="preserve">
+    <value>Windows 10 no permite que el programador especifique la carpeta de ubicación exacta y que los selectores de archivos también se abran. El programador solo puede sugerir una ubicación inicial desde un número limitado de ubicaciones generales. El resultado es que el selector puede abrirse en una ubicación inesperada o intentar abrir una ubicación que ya no existe desde que la carpeta se cifró en el archivo comprimido. Es posible que deba navegar manualmente a la carpeta del casillero para seleccionar el elemento deseado.</value>
+  </data>
+  <data name="UMP_AB_Msg11" xml:space="preserve">
+    <value>DESCARGO DE RESPONSABILIDAD: Usted asume todos los riesgos de utilizar esta aplicación. El programador ha realizado una extensa investigación y pruebas para validar las aplicaciones de forma segura y adecuada. Es su responsabilidad probar esta aplicación utilizando una copia de sus datos para asegurar que la aplicación se desempeña como se espera antes de usar cualquier dato original. La aplicación no guarda tu contraseña en ningún lugar. No podrá descifrar o acceder a sus datos si olvida la contraseña utilizada para cifrar los datos.</value>
+  </data>
+  <data name="UMP_ToggleDeleteSecure_Msg" xml:space="preserve">
+    <value>La configuración predeterminada para el modo de eliminación segura está desactivada.  El modo de borrado seguro agrega un tiempo de procesamiento considerable y puede no ser requerido. Este modo cifra el elemento original y los elementos temporales utilizados en proceso con contraseña aleatoria y vector de inicialización aleatoria antes de la eliminación.  Estos artículos no pueden ser recuperados.  Windows 10 no elimina el contenido del elemento en la eliminación.  Sólo elimina el nombre del elemento de la base de datos y muestra el espacio ocupado disponible.  El contenido del elemento eliminado puede seguir existiendo en el dispositivo, ya que Windows 10 utiliza varias cachés que incluyen la papelera de reciclaje, el historial de archivos, el archivo de hibernación, el archivo de página, los archivos temporales y otros.</value>
+  </data>
+  <data name="UMP_ToggleVerbose_Msg" xml:space="preserve">
+    <value>La configuración predeterminada para el modo detallado está encendida.  El modo detallado muestra mensajes, sugerencias y consejos detallados en varias ubicaciones.  Apague el modo detallado para mostrar mensajes abreviados.</value>
+  </data>
+  <data name="UMP_SP_Msg02" xml:space="preserve">
+    <value>Introduzca la contraseña para la carpeta del casillero.</value>
+  </data>
+  <data name="HP_Success_Encrypt" xml:space="preserve">
+    <value>Encriptado</value>
+  </data>
+  <data name="HP_Error_Encrypt_ProcessFail" xml:space="preserve">
+    <value>ya que el proceso de encriptación falló</value>
+  </data>
+  <data name="HP_Error_Encrypt_FileIsEncrypted" xml:space="preserve">
+    <value>porque ya está encriptado</value>
+  </data>
+  <data name="HP_Error_HierarchyOutside" xml:space="preserve">
+    <value>ya que se encuentra fuera de la carpeta</value>
+  </data>
+  <data name="UMP_Error_Picker_NothingPicked" xml:space="preserve">
+    <value>No escogió nada</value>
+  </data>
+  <data name="HP_Success_Decrypt" xml:space="preserve">
+    <value>Descifrado</value>
+  </data>
+  <data name="HP_Error_Decrypt_ProcessFail" xml:space="preserve">
+    <value>ya que el proceso de descifrado falló</value>
+  </data>
+  <data name="HP_Error_Decrypt_ItemExistDest" xml:space="preserve">
+    <value>No se pudo descifrar {0} porque {1} ya contiene un elemento con el nombre {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_ParentFolder" xml:space="preserve">
+    <value>ya que no se pudo obtener acceso de lectura y escritura a la carpeta principal</value>
+  </data>
+  <data name="MP_UnhandledException_Msg" xml:space="preserve">
+    <value>Excepción no controlada ocurrida en el método:</value>
+  </data>
+  <data name="MP_Success_FolderCheck_NoArchive" xml:space="preserve">
+    <value>Carpeta encontrada o creada</value>
+  </data>
+  <data name="MP_Error_FolderCheck_NoArchive" xml:space="preserve">
+    <value>No se pudo encontrar o crear una carpeta</value>
+  </data>
+  <data name="HP_Error_Encrypt_ItemExistDest" xml:space="preserve">
+    <value>No se pudo cifrar {0} porque {1} ya contiene elementos con el nombre {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_ProcessingItem" xml:space="preserve">
+    <value>Procesamiento</value>
+  </data>
+  <data name="HP_PickFile_Delete" xml:space="preserve">
+    <value>Seleccione archivo para eliminar de forma segura</value>
+  </data>
+  <data name="HP_PickFolder_Delete" xml:space="preserve">
+    <value>Seleccione carpeta para eliminar de forma segura</value>
+  </data>
+  <data name="HP_Success_FileExplorer" xml:space="preserve">
+    <value>Explorador de archivos abierto a {0}</value>
+  </data>
+  <data name="HP_Error_DeleteSecure" xml:space="preserve">
+    <value>No se pudo asegurar borrar</value>
+  </data>
+  <data name="HP_Success_DeleteSecure" xml:space="preserve">
+    <value>Seguro eliminado</value>
+  </data>
+  <data name="HP_ButDecryptFolder" xml:space="preserve">
+    <value>Descifrar carpeta</value>
+  </data>
+  <data name="SF_Msg03" xml:space="preserve">
+    <value>Windows 10 no permite que las aplicaciones accedan a carpetas y archivos personales sin permiso.  Cree una nueva carpeta o seleccione la carpeta existente para dar permiso a la aplicación.</value>
+  </data>
+  <data name="SF_Msg05" xml:space="preserve">
+    <value>Haga clic en el botón siguiente para establecer la ubicación y el nombre de la carpeta casillero.</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedPlural" xml:space="preserve">
+    <value>artículos no procesados</value>
+  </data>
+  <data name="HP_ButCreateFolderNoArchive" xml:space="preserve">
+    <value>Crear la carpeta AES</value>
+  </data>
+  <data name="HP_PickFile_Decrypt" xml:space="preserve">
+    <value>Seleccionar archivo para descifrar</value>
+  </data>
+  <data name="SF_SampleFilename1" xml:space="preserve">
+    <value>Instrucciones y consejos</value>
+  </data>
+  <data name="HP_Error_Decrypt_FolderFilesFailed" xml:space="preserve">
+    <value>Descifrado de {0} archivos en {1}</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Encrypt_FolderFilesFailed" xml:space="preserve">
+    <value>Encriptado {0} archivos en {1}</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="SF_Success_Picker_Msg1" xml:space="preserve">
+    <value>La carpeta seleccionada fue:</value>
+  </data>
+  <data name="HP_Error_Encrypt_WrapperFolder" xml:space="preserve">
+    <value>ya que no se pudo crear la carpeta contenedora</value>
+  </data>
+  <data name="HP_Error_Encrypt_FlagFile" xml:space="preserve">
+    <value>ya que no se pudo crear el archivo de pabellón</value>
+  </data>
+  <data name="HP_Error_Decrypt_FileListFailed" xml:space="preserve">
+    <value>Descifrado {0} pero no se pudo obtener la lista de archivos, el contenido descifrado está en {1}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Decrypt_FileGetFailed" xml:space="preserve">
+    <value>Descifrado {0} pero no pudo obtener {1}, descifrado archivo se dejó en la carpeta {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="UMP_AB_Msg01" xml:space="preserve">
+    <value>La aplicación encripta y descifra carpetas y archivos usando el Estándar de Encriptación Avanzado (Advanced Encryption Standard, AES). Los datos se almacenan independientemente de la aplicación y no se eliminarán si la aplicación se desinstala. La información descifrada es accesible por cualquier aplicación instalada en el dispositivo.</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="UMP_AB_Msg02" xml:space="preserve">
+    <value>Los procesos de cifrado y descifrado utilizan un bloque contiguo de la memoria del dispositivo. El tamaño máximo de archivo que se puede procesar depende de la memoria del dispositivo disponible hasta el límite de Windows 10. El límite en dispositivos de 64 bits es cuatro gibibyte. El límite en dispositivos de 32 bits es aproximadamente dos gibibyte. El programador tiene doce computadoras gibibyte y ha procesado cuatro archivos gibibyte. Los procesos utilizaron toda la memoria del dispositivo y el uso máximo de SSD durante un tiempo prolongado. Es posible que no pueda descifrar archivos en un dispositivo con menos capacidad. La solución es limitar el tamaño del archivo a la capacidad del dispositivo mínimo utilizado.</value>
+  </data>
+  <data name="UMP_AB_Msg03" xml:space="preserve">
+    <value>La aplicación proporciona dos métodos para cifrar y descifrar datos. Cada método tiene ventajas y desventajas. Elija qué método usar según el tamaño de los datos y el uso previsto.</value>
+  </data>
+  <data name="UMP_AB_Msg04" xml:space="preserve">
+    <value>El primer método coloca la carpeta o el archivo en un archivo comprimido y luego los cifra. Los archivos en la carpeta no se pueden ver ya que se colocaron en un archivo. Compartir contenido es simple ya que solo se necesita intercambiar un archivo. La limitación de este método es que crea un archivo grande para cifrar. Este método excederá los límites de memoria del dispositivo con más frecuencia que el segundo método, ya que encripta un archivo grande frente a muchos archivos más pequeños. Este método siempre es más lento que el segundo método.</value>
+  </data>
+  <data name="UMP_AB_Msg05" xml:space="preserve">
+    <value>El segundo método encripta los archivos individuales ubicados en la jerarquía de la carpeta AES. Este método siempre es más rápido que el primer método, ya que las carpetas no se archivan en un archivo. Las carpetas de cualquier tamaño pueden ser encriptadas. El archivo no se cifrará si excede el límite del dispositivo descrito anteriormente. La aplicación mostrará la lista de archivos no encriptados. La limitación de este método es si los archivos en una carpeta son visibles. Esta limitación se puede minimizar utilizando carpetas y nombres de archivo genéricos como Folder01 y File01. Compartir datos con este método es más complejo ya que se deben intercambiar varias carpetas y archivos.</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOff" xml:space="preserve">
+    <value>Modo eliminación segura está desactivado</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOn" xml:space="preserve">
+    <value>Modo eliminación segura está activado</value>
+  </data>
+  <data name="ST_ModeToggleMsg" xml:space="preserve">
+    <value>Cambie la configuración de la aplicación utilizando los interruptores de alternancia anteriores.  Haga clic en el botón de arriba para obtener más información sobre los interruptores de alternancia.</value>
+  </data>
+  <data name="ST_ModeVerboseOff" xml:space="preserve">
+    <value>Modo detallado está desactivado</value>
+  </data>
+  <data name="ST_ModeVerboseOn" xml:space="preserve">
+    <value>Modo detallado está activado</value>
+  </data>
+  <data name="EP_PwBox_PlaceholderText" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="SF_Msg04" xml:space="preserve">
+    <value>El archivo se cifra si la extensión es 'arc' o 'aes'. Windows 10 no muestra las extensiones de archivo de forma predeterminada. Active las extensiones de archivo abriendo el Explorador de archivos. Haga clic en la pestaña Ver en el menú superior para exponer el menú Cinta. Marque la casilla junto a Extensiones de nombre de archivo.</value>
+  </data>
+  <data name="UMP_Reset_Msg" xml:space="preserve">
+    <value>Restablecer no eliminará ningún elemento en su carpeta de casillero.</value>
+  </data>
+  <data name="UMP_LockerReset_Msg02" xml:space="preserve">
+    <value>Puede crear carpetas de casilleros separadas para cada persona o grupo con el que intercambie información confidencial.  AdJunte archivos encriptados de esta aplicación a correos electrónicos y, a continuación, envíelos de un lado a otro de forma segura.  Es posible que desee crear un archivo de contraseña maestra en la carpeta principal del casillero para guardar las contraseñas utilizadas en las otras carpetas del casillero.</value>
+  </data>
+  <data name="UMP_LockerReset_Msg03" xml:space="preserve">
+    <value>Haga clic en el botón siguiente para cambiar a la carpeta del casillero diferente.  A continuación, introduzca la misma contraseña utilizada cuando se creó la carpeta originalmente.</value>
+  </data>
+  <data name="MP_UnhandledException_Type" xml:space="preserve">
+    <value>Tipo de excepción:</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedSingle" xml:space="preserve">
+    <value>artículo no procesado</value>
+  </data>
+  <data name="SF_Success_Picker_Msg2" xml:space="preserve">
+    <value>Haga clic en el botón siguiente para utilizar esta carpeta.  Haga clic en el botón de arriba para seleccionar la carpeta diferente.</value>
+  </data>
+  <data name="SF_Msg06" xml:space="preserve">
+    <value>La carpeta seleccionada se convierte en carpeta de casillero.  La aplicación tendrá acceso de lectura y escritura a carpetas y archivos dentro de la carpeta seleccionada.</value>
+  </data>
+  <data name="UMP_AB_Msg09" xml:space="preserve">
+    <value>Cambie la contraseña del casillero desencriptando todos los elementos en la carpeta del casillero.  A continuación, restablezca la carpeta del casillero.  Seleccione la misma carpeta pero utilice la nueva contraseña.  Los elementos de la carpeta se encriptarán utilizando la nueva contraseña.</value>
+  </data>
+  <data name="UMP_SP_Msg04" xml:space="preserve">
+    <value>Puede ingresar casi cualquier cosa para la contraseña. Las contraseñas más largas y complejas son mucho más resistentes al pirateo.</value>
+  </data>
+  <data name="HP_Timer" xml:space="preserve">
+    <value>({0:N2} segundos)</value>
+  </data>
+  <data name="HP_Error_Decrypt" xml:space="preserve">
+    <value>No se pudo descifrar</value>
+  </data>
+  <data name="HP_Error_Encrypt" xml:space="preserve">
+    <value>No se pudo cifrar</value>
+  </data>
+  <data name="A Comment" xml:space="preserve">
+    <value>Spanish = es
+
+In some following resources, use complete concatenated output string for translation.  In those cases, fill variable names using FileABC and FolderXYZ.  These cases are flagged in Comment column via 'Translate whole phrase.'
+
+Note: Right-to-Left languages such as Arabic and Hebrew will not translate well in this application since it uses concatenation extensively.</value>
+    <comment>Programmer comment about translations.  Value not used in application.</comment>
+  </data>
+  <data name="HP_Error_DeleteSecure_ProcessFail" xml:space="preserve">
+    <value>ya que el proceso de eliminación segura falló</value>
+  </data>
+  <data name="MP_ButBack" xml:space="preserve">
+    <value></value>
+    <comment>Back button = U+E72B in Segoe MDL2 Assets font..  See notes top of MainPage.xaml</comment>
+  </data>
+  <data name="UMP_AB_Msg10" xml:space="preserve">
+    <value>Si está cruzando las fronteras de los países, las autoridades pueden pedirle que descifre cualquier información cifrada en el dispositivo o pueden incautar el dispositivo. Una solución para proteger los datos es eliminar esta aplicación antes de cruzar el borde y luego reinstalar la aplicación en el otro lado del borde. Los datos permanecerán en el dispositivo y aparecerán como carpetas y archivos ordinarios. No se puede acceder a los datos si la aplicación no está instalada. También considere ocultar esta aplicación eliminando del menú Inicio y la barra de tareas.</value>
+  </data>
+  <data name="HP_Error_LockerNotFound" xml:space="preserve">
+    <value>No se pudo encontrar la carpeta del armario. ¿Renombró, movió o eliminó la carpeta de casilleros mientras la aplicación estaba abierta? Salga de la aplicación y comience de nuevo para restablecer la carpeta de casilleros.</value>
+  </data>
+  <data name="HP_PickFile_Encrypt" xml:space="preserve">
+    <value>Seleccionar archivo para cifrar</value>
+  </data>
+  <data name="HP_PickFolder_Decrypt" xml:space="preserve">
+    <value>Seleccionar carpeta para descifrar</value>
+  </data>
+  <data name="ST_CboxItem_LanguageDevice" xml:space="preserve">
+    <value>Dispositivo</value>
+  </data>
+  <data name="ST_CboxItem_LanguageEN" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="ST_CboxItem_LanguageES" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="ST_CboxLanguage_PlaceholderText" xml:space="preserve">
+    <value>Seleccione idioma</value>
+  </data>
+  <data name="ST_TblkLanguageMsg" xml:space="preserve">
+    <value>Seleccione el idioma de la aplicación. La aplicación se cerrará si se cambia la selección. El idioma seleccionado cargará el próximo inicio de la aplicación.</value>
+  </data>
+  <data name="EP_Error_LockdownActivated" xml:space="preserve">
+    <value>Se requiere restablecer el casillero ya que la contraseña incorrecta se ingresó cinco veces.</value>
+  </data>
+  <data name="HP_Error_FileLocked" xml:space="preserve">
+    <value>ya que el archivo está bloqueado Otra aplicación puede estar usando el archivo.</value>
+  </data>
+  <data name="HP_Error_FolderLocked" xml:space="preserve">
+    <value>ya que la carpeta está bloqueada Otra aplicación puede estar usando un archivo en la carpeta.</value>
+  </data>
+  <data name="HP_PickFolder_Encrypt" xml:space="preserve">
+    <value>Seleccionar carpeta para cifrar</value>
+  </data>
+  <data name="ST_ModeExitAppOff" xml:space="preserve">
+    <value>Modo salir aplicación está desactivado</value>
+  </data>
+  <data name="ST_ModeExitAppOn" xml:space="preserve">
+    <value>Modo salir aplicación está activado</value>
+  </data>
+  <data name="UMP_ToggleExitApp_Msg" xml:space="preserve">
+    <value>La configuración predeterminada para el modo de aplicación de salida está desactivada.  La aplicación no saldrá después de que la carpeta del casillero esté encriptada. Activar salir del modo de aplicación para salir de la aplicación después de encriptar la carpeta del casillero.</value>
+  </data>
+  <data name="ST_TogExitApp" xml:space="preserve">
+    <value>Modo salir aplicación</value>
+    <comment>Use translated actual HP_ButEncryptLocker name in this value.</comment>
+  </data>
+  <data name="UMP_ButRateApp" xml:space="preserve">
+    <value>Evaluar y revisar esta aplicación</value>
+  </data>
+  <data name="ST_ApplicationReset_Title" xml:space="preserve">
+    <value>Restablecer la configuración de la aplicación?</value>
+  </data>
+  <data name="ST_ButAppReset" xml:space="preserve">
+    <value>Restablecer aplicación</value>
+  </data>
+  <data name="ST_TblkAppResetMsg" xml:space="preserve">
+    <value>Restablecer la aplicación a la configuración predeterminada.</value>
+  </data>
+  <data name="ST_CboxItem_LanguageHI" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="SP_Error_Password_Match" xml:space="preserve">
+    <value>Las contraseñas no coinciden.</value>
+  </data>
+  <data name="UMP_SP_Msg05" xml:space="preserve">
+    <value>Debe usar la misma contraseña utilizada para cifrar la carpeta si cambia a una carpeta existente cifrada.</value>
+  </data>
+  <data name="HP_ButPurchaseApp" xml:space="preserve">
+    <value>Solicitud de compra</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg1" xml:space="preserve">
+    <value>El precio de aplicación es:</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg2" xml:space="preserve">
+    <value>La aplicación no ha sido comprada.</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg3" xml:space="preserve">
+    <value>El período de prueba es ilimitado. Este cheque de compra se producirá en cada inicio de la aplicación.</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseTrueMsg1" xml:space="preserve">
+    <value>La aplicación ha sido comprada. ¡Gracias!</value>
+  </data>
+  <data name="HP_PurchaseBuyMsg" xml:space="preserve">
+    <value>Intentando comprar la aplicación.</value>
+  </data>
+  <data name="HP_PurchaseCheckMsg" xml:space="preserve">
+    <value>Comprobando si la aplicación ha sido comprada.</value>
+  </data>
+  <data name="UMP_Off" xml:space="preserve">
+    <value>Desactivado</value>
+    <comment>OffContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="UMP_On" xml:space="preserve">
+    <value>Activado</value>
+    <comment>OnContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="ST_CboxItem_LanguageFR" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="ST_CboxItem_LanguageZH" xml:space="preserve">
+    <value>Chino (Simplificado)</value>
+  </data>
+</root>

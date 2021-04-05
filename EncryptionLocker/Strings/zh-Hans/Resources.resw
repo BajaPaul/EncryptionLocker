@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MP_TblkAppName" xml:space="preserve">
+    <value>加密储物柜</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="AT_TblkPageTitle" xml:space="preserve">
+    <value>切换按钮信息</value>
+  </data>
+  <data name="UMP_ButContinue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="UMP_ButLockerReset" xml:space="preserve">
+    <value>重置储物柜文件夹</value>
+  </data>
+  <data name="UMP_Reset_Aborted" xml:space="preserve">
+    <value>重置已中止</value>
+  </data>
+  <data name="EP_Error_LockerAccess" xml:space="preserve">
+    <value>无法打开文件夹或获取对文件夹的读取和写入访问权限。</value>
+  </data>
+  <data name="EP_Error_FilePath" xml:space="preserve">
+    <value>锁定器文件夹的文件路径与配置值不匹配。 您是否重命名或移动或删除了更衣室文件夹？</value>
+  </data>
+  <data name="EP_Error_LockerReset_Required" xml:space="preserve">
+    <value>单击以下按钮以重置锁定文件夹。 选择相同的文件夹并输入用于创建文件夹的密码。</value>
+  </data>
+  <data name="EP_Error_LockerNotFound" xml:space="preserve">
+    <value>找不到储物柜文件夹。 您是否重命名或移动或删除文件夹？ 您是否删除了该文件夹所在的USB驱动器，SD卡或可移动驱动器？ 退出应用程序并插入已删除的设备并重试。 否则，请单击以下按钮以重置锁定文件夹。</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg01" xml:space="preserve">
+    <value>找到的储物柜文件夹在</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg02" xml:space="preserve">
+    <value>应用程序具有对文件夹的读写权限</value>
+  </data>
+  <data name="EP_Error_Password_NotValid" xml:space="preserve">
+    <value>密码无效。 请再试一次。 五次尝试后将启动储物柜重置。</value>
+  </data>
+  <data name="EP_TblkPageMsg" xml:space="preserve">
+    <value>输入密码以解锁和打开储物柜文件夹。</value>
+  </data>
+  <data name="EP_TblkPageTitle" xml:space="preserve">
+    <value>应用程序密码输入</value>
+  </data>
+  <data name="UMP_Error_Password_Hash" xml:space="preserve">
+    <value>无法哈希密码。 尝试不同的密码。</value>
+  </data>
+  <data name="HP_ButDecryptLocker" xml:space="preserve">
+    <value>解密储物柜文件夹</value>
+  </data>
+  <data name="HP_ButDecryptFile" xml:space="preserve">
+    <value>解密文件</value>
+  </data>
+  <data name="HP_ButDeleteFile" xml:space="preserve">
+    <value>安全删除文件</value>
+  </data>
+  <data name="HP_ButDeleteFolder" xml:space="preserve">
+    <value>安全删除文件夹</value>
+  </data>
+  <data name="HP_ButEncryptLocker" xml:space="preserve">
+    <value>加密储物柜文件夹</value>
+  </data>
+  <data name="HP_ButEncryptFile" xml:space="preserve">
+    <value>加密文件</value>
+  </data>
+  <data name="HP_ButEncryptFolder" xml:space="preserve">
+    <value>加密文件夹</value>
+  </data>
+  <data name="HP_ButLockerView" xml:space="preserve">
+    <value>查看储物柜文件夹</value>
+  </data>
+  <data name="HP_LockerAvailable" xml:space="preserve">
+    <value>当前储物柜文件夹是</value>
+    <comment>Show path to Locker.</comment>
+  </data>
+  <data name="HP_LockerAvailable_SampleFiles" xml:space="preserve">
+    <value>在储物柜文件夹中创建示例文件夹和文件以进行试验。 打开其中一个文件以查看应用程序说明和提示。</value>
+  </data>
+  <data name="HP_TblkMsgSettings" xml:space="preserve">
+    <value>单击配置按钮更改以下设置</value>
+  </data>
+  <data name="HP_TblkPageTitle" xml:space="preserve">
+    <value>应用程序加密和解密</value>
+  </data>
+  <data name="UMP_LockerReset_Msg01" xml:space="preserve">
+    <value>您可以拥有多个储物柜文件夹。 每个文件夹都可以有唯一的密码</value>
+  </data>
+  <data name="MP_ButAbout" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="MP_ButSettings" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="UMP_LockerReset_Title" xml:space="preserve">
+    <value>重置储物柜文件夹？</value>
+  </data>
+  <data name="UMP_Reset_Yes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="UMP_Reset_No" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="SP_PwBoxPw1_PlaceholderText" xml:space="preserve">
+    <value>输入密码</value>
+  </data>
+  <data name="SF_ButFolderPicker" xml:space="preserve">
+    <value>锁文件夹配置</value>
+  </data>
+  <data name="SF_Error_Picker_FolderException" xml:space="preserve">
+    <value>无法获得对所选文件夹的读写访问权限。 文件夹位于受保护的位置。 在其他位置创建文件夹。</value>
+  </data>
+  <data name="SF_CboxSamples" xml:space="preserve">
+    <value>在储物柜文件夹中创建示例文件夹和文件。</value>
+  </data>
+  <data name="SF_CreateSample_Intro" xml:space="preserve">
+    <value>说明和建议:</value>
+  </data>
+  <data name="SF_CreateSample_Closing" xml:space="preserve">
+    <value>通过加密和解密在储物柜文件夹中创建的示例文件夹和文件,了解如何使用应用程序。 请评价和审查申请。</value>
+  </data>
+  <data name="SF_SampleFilename2" xml:space="preserve">
+    <value>示例文件</value>
+  </data>
+  <data name="SF_SampleFoldername" xml:space="preserve">
+    <value>示例文件夹</value>
+  </data>
+  <data name="SF_Msg01" xml:space="preserve">
+    <value>创建新文件夹或选择现有文件夹。</value>
+  </data>
+  <data name="SF_Msg02" xml:space="preserve">
+    <value>选择了储物柜文件夹重置选项，或者这是首次启动应用程序。</value>
+  </data>
+  <data name="SF_TblkPageTitle" xml:space="preserve">
+    <value>应用程序文件夹配置</value>
+  </data>
+  <data name="SP_PwBoxPw2_PlaceholderText" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="SP_Success_Password_Match" xml:space="preserve">
+    <value>密码匹配。 单击以下按钮使用密码进行储物柜文件夹。</value>
+  </data>
+  <data name="SP_Error_Password_Setup" xml:space="preserve">
+    <value>无法保存储物柜文件夹设置数据。 请尝试不同的密码。</value>
+  </data>
+  <data name="SP_Error_Password_Length" xml:space="preserve">
+    <value>密码必须至少包含四个字符。 请尝试不同的密码。</value>
+  </data>
+  <data name="UMP_SP_Msg03" xml:space="preserve">
+    <value>应用程序将拒绝无效密码。 最小密码长度为四个字符。</value>
+  </data>
+  <data name="UMP_SP_Msg01" xml:space="preserve">
+    <value>应用程序不会将密码保存在任 如果忘记用于加密的密码，您将失去对加密数据的访问权限。</value>
+  </data>
+  <data name="SP_TblkPageTitle" xml:space="preserve">
+    <value>应用程序密码配置</value>
+  </data>
+  <data name="ST_ButAboutToggles" xml:space="preserve">
+    <value>切换按钮信息</value>
+  </data>
+  <data name="ST_TblkPageTitle" xml:space="preserve">
+    <value>应用程序配置</value>
+  </data>
+  <data name="ST_TogDeleteSecure" xml:space="preserve">
+    <value>安全删除模式</value>
+  </data>
+  <data name="ST_TogVerbose" xml:space="preserve">
+    <value>详细模式</value>
+  </data>
+  <data name="AB_ButCryptoLink1" xml:space="preserve">
+    <value>加密</value>
+  </data>
+  <data name="AB_ButCryptoLink2" xml:space="preserve">
+    <value>高级加密标准（AES）</value>
+  </data>
+  <data name="AB_ButCryptoLink3" xml:space="preserve">
+    <value>初始化向量</value>
+  </data>
+  <data name="AB_ButCryptoLink4" xml:space="preserve">
+    <value>阻止密码模式</value>
+  </data>
+  <data name="AB_ButProgrammerEmail" xml:space="preserve">
+    <value>电邮支援</value>
+  </data>
+  <data name="AB_TblkLink" xml:space="preserve">
+    <value>单击以下网站链接以了解有关加密的更多信息。</value>
+  </data>
+  <data name="AB_TblkPageTitle" xml:space="preserve">
+    <value>应用信息</value>
+  </data>
+  <data name="AB_TblkPayment" xml:space="preserve">
+    <value>申请有无限的免费试用期进行评估。 购买一次,并在所有 Windows 10 设备上使用。 请评价和审查申请。</value>
+  </data>
+  <data name="AB_TblkProgrammer" xml:space="preserve">
+    <value>使用以下电子邮件链接报告错误或提供其他意见或建议。 应用程序版本是</value>
+  </data>
+  <data name="UMP_AB_Msg06" xml:space="preserve">
+    <value>应用程序验证每次启动时是否已完成购买。 确认购买后将跳过此验证过程。 应用程序将保持试用模式,直到购买。 试用模式功能齐全,但每次启动时此验证过程都会带来不便。</value>
+  </data>
+  <data name="UMP_AB_Msg07" xml:space="preserve">
+    <value>加密或解密项目后，可能需要一段时间才能显示文件夹更改。 偶尔文件夹视图不会更新。 您可能需要手动刷新文件夹才能查看结果。</value>
+  </data>
+  <data name="UMP_AB_Msg08" xml:space="preserve">
+    <value>Windows 10不允许程序员指定确切的位置文件夹和文件选择器。 程序员只能建议从有限数量的一般位置开始的位置。 结果是选取器可能会打开到意外位置或尝试打开不再存在的位置，因为文件夹已加密到存档文件。 您可能需要手动导航回更衣室文件夹以选择所需的项目。</value>
+  </data>
+  <data name="UMP_AB_Msg11" xml:space="preserve">
+    <value>声明:您承担使用此应用程序的所有风险。 程序员进行了广泛的研究和测试,以验证应用程序是否安全、正确地工作。 您有责任使用数据副本测试此应用程序,以确保应用程序在使用任何原始数据之前按预期执行。 应用程序不会将您的密码保存到任何位置。 如果您忘记了用于加密数据的密码,您将无法解密或访问您的数据。</value>
+  </data>
+  <data name="UMP_ToggleDeleteSecure_Msg" xml:space="preserve">
+    <value>安全删除模式的默认设置为关闭。 安全删除模式会增加相当多的处理时间，可能不需要。 此模式使用随机密码和随机初始化向量在删除之前加密原始项目和过程中使用的任何临时项目。 这些物品无法恢复。 Windows 10不会删除删除项目的内容。 它仅从数据库中删除项目名称并显示可用的占用空间。 由于Windows 10使用各种缓存（包括回收站，文件历史记录，休眠文件，页面文件，临时文件等），因此已删除项目的内容可能仍存在于设备上。</value>
+  </data>
+  <data name="UMP_ToggleVerbose_Msg" xml:space="preserve">
+    <value>详细模式的默认设置已启用。 详细模式显示各个位置的详细消息，建议和提示。 关闭详细模式以显示缩写消息。</value>
+  </data>
+  <data name="UMP_SP_Msg02" xml:space="preserve">
+    <value>输入储物柜文件夹的密码。</value>
+  </data>
+  <data name="HP_Success_Encrypt" xml:space="preserve">
+    <value>加密</value>
+  </data>
+  <data name="HP_Error_Encrypt_ProcessFail" xml:space="preserve">
+    <value>由于加密过程失败</value>
+  </data>
+  <data name="HP_Error_Encrypt_FileIsEncrypted" xml:space="preserve">
+    <value>因为已经加密</value>
+  </data>
+  <data name="HP_Error_HierarchyOutside" xml:space="preserve">
+    <value>由于位于文件夹外部</value>
+  </data>
+  <data name="UMP_Error_Picker_NothingPicked" xml:space="preserve">
+    <value>没有选择任何东西</value>
+  </data>
+  <data name="HP_Success_Decrypt" xml:space="preserve">
+    <value>解密</value>
+  </data>
+  <data name="HP_Error_Decrypt_ProcessFail" xml:space="preserve">
+    <value>由于解密过程失败</value>
+  </data>
+  <data name="HP_Error_Decrypt_ItemExistDest" xml:space="preserve">
+    <value>无法解密 {0},因为 {1} 已包含名称为 {2} 的项目</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_ParentFolder" xml:space="preserve">
+    <value>由于无法获取对父文件夹的读取和写入访问权限</value>
+  </data>
+  <data name="MP_UnhandledException_Msg" xml:space="preserve">
+    <value>方法中发生了未处理的异常:</value>
+  </data>
+  <data name="MP_Success_FolderCheck_NoArchive" xml:space="preserve">
+    <value>找到或创建的文件夹</value>
+  </data>
+  <data name="MP_Error_FolderCheck_NoArchive" xml:space="preserve">
+    <value>找不到或创建文件夹</value>
+  </data>
+  <data name="HP_Error_Encrypt_ItemExistDest" xml:space="preserve">
+    <value>无法加密 {0},因为 {1} 已包含名称为 {2} 的项目</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_ProcessingItem" xml:space="preserve">
+    <value>处理</value>
+  </data>
+  <data name="HP_PickFile_Delete" xml:space="preserve">
+    <value>选择要安全删除的文件</value>
+  </data>
+  <data name="HP_PickFolder_Delete" xml:space="preserve">
+    <value>选择要安全删除的文件夹</value>
+  </data>
+  <data name="HP_Success_FileExplorer" xml:space="preserve">
+    <value>文件资源管理器打开 {0}</value>
+  </data>
+  <data name="HP_Error_DeleteSecure" xml:space="preserve">
+    <value>无法安全删除</value>
+  </data>
+  <data name="HP_Success_DeleteSecure" xml:space="preserve">
+    <value>安全删除</value>
+  </data>
+  <data name="HP_ButDecryptFolder" xml:space="preserve">
+    <value>解密文件夹</value>
+  </data>
+  <data name="SF_Msg03" xml:space="preserve">
+    <value>Windows 10 不允许应用程序未经许可访问个人文件夹和文件。 创建新文件夹或选择现有文件夹以授予应用程序权限。</value>
+  </data>
+  <data name="SF_Msg05" xml:space="preserve">
+    <value>单击以下按钮以设置储物柜文件夹的位置和名称。</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedPlural" xml:space="preserve">
+    <value>未处理的文件夹或文件</value>
+  </data>
+  <data name="HP_ButCreateFolderNoArchive" xml:space="preserve">
+    <value>创建 AES 文件夹</value>
+  </data>
+  <data name="HP_PickFile_Decrypt" xml:space="preserve">
+    <value>选择要解密的文件</value>
+  </data>
+  <data name="SF_SampleFilename1" xml:space="preserve">
+    <value>说明和建议</value>
+  </data>
+  <data name="HP_Error_Decrypt_FolderFilesFailed" xml:space="preserve">
+    <value>在 {1} 中解密了 {0} 个文件</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Encrypt_FolderFilesFailed" xml:space="preserve">
+    <value>在 {1} 中加密了 {0} 个文件</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="SF_Success_Picker_Msg1" xml:space="preserve">
+    <value>选中的文件夹是:</value>
+  </data>
+  <data name="HP_Error_Encrypt_WrapperFolder" xml:space="preserve">
+    <value>由于无法创建包装文件夹</value>
+  </data>
+  <data name="HP_Error_Encrypt_FlagFile" xml:space="preserve">
+    <value>由于无法创建标志文件</value>
+  </data>
+  <data name="HP_Error_Decrypt_FileListFailed" xml:space="preserve">
+    <value>解密的{0},但无法获取文件列表,解密的内容在{1}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Decrypt_FileGetFailed" xml:space="preserve">
+    <value>解密的{0},但无法获取{1},解密文件留在文件夹{2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="UMP_AB_Msg01" xml:space="preserve">
+    <value>应用程序使用高级加密标准（AES）加密和解密文件夹和文件。 数据独立于应用程序存储，如果卸载应用程序，则不会删除。 安装在设备上的任何应用程序都可以访问解密数据。</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="UMP_AB_Msg02" xml:space="preserve">
+    <value>加密和解密过程使用一个连续的设备内存块。 可以处理的最大文件大小取决于可用的设备内存，最高可达Windows 10限制。 对64位设备的限制是四个gibibyte。 32位设备的限制大约是两个gibibyte。 程序员有十二个gibibyte计算机，并处理了四个gibibyte文件。 进程使用所有设备内存并最大限度地使用SSD延长时间。 您可能无法在功能较弱的设备上解密文件。 解决方法是将文件大小限制为使用最小设备的能力。</value>
+  </data>
+  <data name="UMP_AB_Msg03" xml:space="preserve">
+    <value>应用程序提供了两种加密和解密数据的方法。 每种方法都有优点和缺点。 根据数据大小和预期用途选择使用哪种方法。</value>
+  </data>
+  <data name="UMP_AB_Msg04" xml:space="preserve">
+    <value>第一种方法将文件夹或文件放入存档文件，然后加密存档文件。 文件夹中的文件因放入一个文件而无法看到。 共享内容很简单，因为只需要交换一个文件。 此方法的局限是它创建一个要加密的大文件。 自加密一个大文件与许多较小文件加密后，此方法将比第二种方法更频繁地超出设备内存限制。 此方法始终比第二种方法慢。</value>
+  </data>
+  <data name="UMP_AB_Msg05" xml:space="preserve">
+    <value>第二种方法加密位于AES文件夹层次结构中的各个文件。 此方法总是比第一种方法更快，因为文件夹不会归档到一个文件中。 任何大小的文件夹都可以加密。 如果文件超出上面讨论的设备限制，则不会加密文件。 应用程序将显示未加密的文件列表。 此方法的限制是文件夹中的文件是可见的。 通过使用通用文件夹和文件名（如Folder01和File01）可以最大限度地减少此限制。 使用此方法共享数据更复杂，因为需要交换多个文件夹和文件。</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOff" xml:space="preserve">
+    <value>安全删除模式关闭</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOn" xml:space="preserve">
+    <value>安全删除模式处于打开状态</value>
+  </data>
+  <data name="ST_ModeToggleMsg" xml:space="preserve">
+    <value>使用上述切换开关更改应用程序配置。 单击上面的按钮,了解有关切换开关的详细信息。</value>
+  </data>
+  <data name="ST_ModeVerboseOff" xml:space="preserve">
+    <value>详细模式已关闭</value>
+  </data>
+  <data name="ST_ModeVerboseOn" xml:space="preserve">
+    <value>详细模式处于打开状态</value>
+  </data>
+  <data name="EP_PwBox_PlaceholderText" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="SF_Msg04" xml:space="preserve">
+    <value>如果扩展名为"弧"或"aes",则文件将被加密。默认情况下,Windows 10 不显示文件扩展名。打开文件资源管理器。单击上部菜单中的"查看"选项卡以公开功能区菜单。选中文件名扩展名旁边的复选框。</value>
+  </data>
+  <data name="UMP_Reset_Msg" xml:space="preserve">
+    <value>重置不会删除您的储物柜文件夹中的任何项目。</value>
+  </data>
+  <data name="UMP_LockerReset_Msg02" xml:space="preserve">
+    <value>您可以为与您交换机密信息的每个人或组创建单独的储物柜文件夹。 将此应用程序中的加密文件附加到电子邮件中，然后安全地来回发送。 您可能需要在主要储物柜文件夹中创建主密码文件，以保存其他储物柜文件夹中使用的密码。</value>
+  </data>
+  <data name="UMP_LockerReset_Msg03" xml:space="preserve">
+    <value>单击以下按钮切换到不同的储物柜文件夹。 然后输入最初创建文件夹时使用的相同密码。</value>
+  </data>
+  <data name="MP_UnhandledException_Type" xml:space="preserve">
+    <value>异常类型:</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedSingle" xml:space="preserve">
+    <value>未处理的文件夹或文件</value>
+  </data>
+  <data name="SF_Success_Picker_Msg2" xml:space="preserve">
+    <value>单击以下按钮以使用此文件夹。 单击上面的按钮以选择不同的文件夹。</value>
+  </data>
+  <data name="SF_Msg06" xml:space="preserve">
+    <value>所选文件夹变为储物柜文件夹。 应用程序将对所选文件夹内的文件夹和文件具有读取和写入访问权限。</value>
+  </data>
+  <data name="UMP_AB_Msg09" xml:space="preserve">
+    <value>通过解密储物柜文件夹中的所有项目来更改储物柜密码。 然后重置locker文件夹。 选择相同的文件夹，但使用新密码。 然后使用新密码加密文件夹中的项目。</value>
+  </data>
+  <data name="UMP_SP_Msg04" xml:space="preserve">
+    <value>您几乎可以输入任何密码。 更长和更复杂的密码更能抵御黑客攻击。</value>
+  </data>
+  <data name="HP_Timer" xml:space="preserve">
+    <value>({0:N2} 秒)</value>
+  </data>
+  <data name="HP_Error_Decrypt" xml:space="preserve">
+    <value>无法解密</value>
+  </data>
+  <data name="HP_Error_Encrypt" xml:space="preserve">
+    <value>无法加密</value>
+  </data>
+  <data name="A Comment" xml:space="preserve">
+    <value>Chinese (Simplified) = zh-Hans
+
+In some following resources, use complete concatenated output string for translation.  In those cases, fill variable names using FileABC and FolderXYZ.  These cases are flagged in Comment column via 'Translate whole phrase.'
+
+Note: Right-to-Left languages such as Arabic and Hebrew will not translate well in this application since it uses concatenation extensively.</value>
+    <comment>Programmer comment about translations.  Value not used in application.</comment>
+  </data>
+  <data name="HP_Error_DeleteSecure_ProcessFail" xml:space="preserve">
+    <value>因为安全删除过程失败了</value>
+  </data>
+  <data name="MP_ButBack" xml:space="preserve">
+    <value></value>
+    <comment>Back button = U+E72B in Segoe MDL2 Assets font..  See notes top of MainPage.xaml</comment>
+  </data>
+  <data name="UMP_AB_Msg10" xml:space="preserve">
+    <value>如果您跨越国界,当局可能会要求您解密设备上的任何加密数据,否则可能会没收设备。 保护数据的一个解决方案是在跨越边界之前删除此应用程序,然后在边界的另一端重新安装应用程序。 数据将保留在设备上,并将显示为任何普通文件夹和文件。 如果未安装应用程序,则无法访问数据。 还应考虑通过从"开始"菜单和任务栏中删除来隐藏此应用程序。</value>
+  </data>
+  <data name="HP_Error_LockerNotFound" xml:space="preserve">
+    <value>找不到储物柜文件夹。 在应用程序打开时，您是否重命名或移动或删除了更衣室文件夹？ 退出应用程序并再次启动以重置锁定文件夹。</value>
+  </data>
+  <data name="HP_PickFile_Encrypt" xml:space="preserve">
+    <value>选择要加密的文件</value>
+  </data>
+  <data name="HP_PickFolder_Decrypt" xml:space="preserve">
+    <value>选择要解密的文件夹</value>
+  </data>
+  <data name="ST_CboxItem_LanguageDevice" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="ST_CboxItem_LanguageEN" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="ST_CboxItem_LanguageES" xml:space="preserve">
+    <value>西班牙语</value>
+  </data>
+  <data name="ST_CboxLanguage_PlaceholderText" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="ST_TblkLanguageMsg" xml:space="preserve">
+    <value>选择应用程序语言。 如果更改了选择,应用程序将关闭。 所选语言将加载下一个应用程序启动。</value>
+  </data>
+  <data name="EP_Error_LockdownActivated" xml:space="preserve">
+    <value>由于输入了五次不正确的密码,因此需要重置锁柜。</value>
+  </data>
+  <data name="HP_Error_FileLocked" xml:space="preserve">
+    <value>因为文件被锁定了。 另一个应用可能是使用文件。</value>
+  </data>
+  <data name="HP_Error_FolderLocked" xml:space="preserve">
+    <value>因为文件夹被锁定了。 另一个应用程序可能正在使用该文件夹中的文件。</value>
+  </data>
+  <data name="HP_PickFolder_Encrypt" xml:space="preserve">
+    <value>选择要加密的文件夹</value>
+  </data>
+  <data name="ST_ModeExitAppOff" xml:space="preserve">
+    <value>退出应用程序模式已关闭</value>
+  </data>
+  <data name="ST_ModeExitAppOn" xml:space="preserve">
+    <value>退出应用程序模式处于打开状态</value>
+  </data>
+  <data name="UMP_ToggleExitApp_Msg" xml:space="preserve">
+    <value>退出应用程序模式的默认设置已关闭。 加密储物柜文件夹后,应用程序不会退出。打开退出应用程序模式,在储物柜文件夹加密后退出应用程序。</value>
+  </data>
+  <data name="ST_TogExitApp" xml:space="preserve">
+    <value>退出应用程序模式</value>
+  </data>
+  <data name="UMP_ButRateApp" xml:space="preserve">
+    <value>评估和审核此应用程序</value>
+  </data>
+  <data name="ST_ApplicationReset_Title" xml:space="preserve">
+    <value>重置应用程序设置?</value>
+  </data>
+  <data name="ST_ButAppReset" xml:space="preserve">
+    <value>重置应用程序</value>
+  </data>
+  <data name="ST_TblkAppResetMsg" xml:space="preserve">
+    <value>将应用程序重置为默认设置。 </value>
+    <comment>Include space at end since value catenated.</comment>
+  </data>
+  <data name="ST_CboxItem_LanguageHI" xml:space="preserve">
+    <value>印地语</value>
+  </data>
+  <data name="SP_Error_Password_Match" xml:space="preserve">
+    <value>密码不匹配。</value>
+  </data>
+  <data name="UMP_SP_Msg05" xml:space="preserve">
+    <value>如果切换到加密的现有文件夹，则必须使用用于加密文件夹的相同密码。</value>
+  </data>
+  <data name="HP_ButPurchaseApp" xml:space="preserve">
+    <value>购买应用程序</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg1" xml:space="preserve">
+    <value>申请价格为:</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg2" xml:space="preserve">
+    <value>尚未购买应用程序。</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg3" xml:space="preserve">
+    <value>试用期不受限制。每次申请开始时都会进行此购买检查。</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseTrueMsg1" xml:space="preserve">
+    <value>已购买应用程序。谢谢！</value>
+  </data>
+  <data name="HP_PurchaseBuyMsg" xml:space="preserve">
+    <value>试图购买申请。</value>
+  </data>
+  <data name="HP_PurchaseCheckMsg" xml:space="preserve">
+    <value>检查是否已购买应用程序。</value>
+  </data>
+  <data name="UMP_Off" xml:space="preserve">
+    <value>掉</value>
+    <comment>OffContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="UMP_On" xml:space="preserve">
+    <value>上</value>
+    <comment>OnContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="ST_CboxItem_LanguageFR" xml:space="preserve">
+    <value>法语</value>
+  </data>
+  <data name="ST_CboxItem_LanguageZH" xml:space="preserve">
+    <value>中文(简体字)</value>
+  </data>
+</root>

@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="EncryptionLocker.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}"
+    Loaded="Page_Loaded">
+
+    <!-- This App designed to use Dark theme. Dark theme is set in App.xaml file via RequestedTheme="Dark". -->
+
+    <!-- App uses ThemeResource SystemControlAcrylicWindowBrush. App background falls back to default Dark background if User has transparency turned off.
+    More at: https://docs.microsoft.com/en-us/windows/uwp/design/style/acrylic
+    Alternative backgrounds that can be used follow: -->
+    <!-- Background="{ThemeResource SystemControlAcrylicWindowBrush}" -->
+    <!-- Background="{ThemeResource SystemControlAcrylicWindowMediumHighBrush}" -->
+    <!-- Background="{ThemeResource SystemControlAccentDark2AcrylicWindowAccentDark2MediumHighBrush}" -->
+
+    <!-- Buttons in this App use Fluent Design Style="{StaticResource ButtonRevealStyle}"
+    More at: https://docs.microsoft.com/en-us/windows/uwp/design/style/reveal -->
+
+    <!-- XAML Special Characters: What appears between & and ; must be a valid parser name or
+    is numeric, "#" for decimal or "#x" for hexidecimal, and must be in range of acceptable Unicode values.
+    Windows uses the UTF-16 implementation of Unicode.
+    See more at: https://msdn.microsoft.com/en-us/library/windows/desktop/dd892769(v=vs.85).aspx
+    and at: https://msdn.microsoft.com/en-us/library/windows/desktop/dd374081(v=vs.85).aspx
+                   XAML     XAML     C#
+    Char  Entity   Dec      Hex      Hex
+    &     &amp;    &#38;    &#x26;   \u0026
+    <     &lt;     &#60;    &#x3C;   \u003C
+    >     &gt;     &#62;    &#x3E;   \u003E
+    "     &quot;   &#34;    &#x22;   \U0022
+    '     &apos;   &#39;    &#x27;   \u0027
+    To use symbols, use the 'Segoe MDL2 Assets' font.
+    XAML: Hamburger=&#xE700; Home=&#xE80F; Back=&#xE72B; Forward=&#xE72A; Page=&#xE7C3;
+    C#:   Hamburger=\uE700   Home=\uE80F   Back=\uE72B   Forward=\uE72A   Page=\uE7C3 -->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Grid.Row="0" replaces default UWP title bar with empty title bar using code behind via CustomizeAppTitleBar().
+        Background of this grid row must be Transparent so Page Background shows through.
+        This grid configuration works great for Xbox without needing any additional border adjustments to accommodate application on Xbox. -->
+        <Grid Grid.Row="0" Background="Transparent">
+            <!-- This grid row needs at least one item in it that will set row height so User has space at top of application that can be grabbed with mouse
+            to enable window dragging. Use empty TextBlock with Margin="8" as defined below. -->
+            <TextBlock Text="" Margin="8"/>
+        </Grid>
+
+        <!-- Grid.Row="1" will appear below caption buttons. Items in this grid row will show in all pages of App unless hidden via code behind.
+        Include navigations buttons ButBack, ButAbout, and ButSettings in this grid row. -->
+        <Grid Grid.Row="1">
+            <RelativePanel>
+                <Button x:Name="ButBack" Content="ButBack Content" Margin="1,1,1,1" FontFamily="Segoe MDL2 Assets" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignLeftWithPanel="True" Click="ButBack_Click"/>
+                <Button x:Name="ButAbout" Content="ButAbout Content" Margin="1,1,1,1" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignLeftWithPanel="True" Click="ButAbout_Click"/>
+                <Button Name="ButSettings" Content="ButSettings Content" Margin="1,1,1,1" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignRightWithPanel="True" Click="ButSettings_Click"/>
+                <TextBlock x:Name="TblkAppTitle" Text="TblkAppTitle Text" Margin="1,1,1,1" Style="{ThemeResource SubtitleTextBlockStyle}" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" TextAlignment="Center"/>
+            </RelativePanel>
+        </Grid>
+
+        <!-- Grid.Row="2" includes a scrollviewer and a frame that all other pages will appear inside of. -->
+        <Grid Grid.Row="2">
+            <ScrollViewer x:Name="ScrollViewerMP">
+                <Frame Name="FrameMP"/>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+</Page>

@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="EncryptionLocker.Pages.SetupFolder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <RelativePanel x:Name="Rpanel">
+        <Rectangle x:Name="RectLayoutCenter" Width="4" Height="12" Fill="Red"   Margin="0" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignTopWithPanel="True"/>
+        <Rectangle x:Name="RectLayoutLeft" Width="4" Height="12" Fill="Green" Margin="0,0,356,0" RelativePanel.LeftOf="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+        <Rectangle x:Name="RectLayoutRight" Width="4" Height="12" Fill="Blue"  Margin="356,0,0,0" RelativePanel.RightOf="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+
+        <TextBlock x:Name="TblkPageTitle" Text="TblkPageTitle Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+
+        <TextBlock x:Name="TblkPageMsg" Text="TblkPageMsg Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" IsTextSelectionEnabled="True" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="TblkPageTitle"/>
+
+        <Button x:Name="ButFolderPicker" TabIndex="101" Content="ButFolderPicker Content" Margin="16,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.Below="TblkPageMsg" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Click="ButFolderPicker_Click"/>
+
+        <TextBlock x:Name="TblkResult" Text="TblkResult Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" IsTextSelectionEnabled="True" RelativePanel.Below="ButFolderPicker" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter"/>
+
+        <CheckBox x:Name="CboxSamples" TabIndex="102" Content="CboxSamples Content" IsChecked="True" Margin="16,6,16,10" RelativePanel.Below="TblkResult" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter"/>
+
+        <Button x:Name="ButContinue" TabIndex="103" Content="ButContinue Content" Margin="16,8,16,24" Style="{StaticResource ButtonRevealStyle}" RelativePanel.Below="CboxSamples" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Click="ButContinue_Click"/>
+    </RelativePanel>
+</Page>

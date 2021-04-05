@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MP_TblkAppName" xml:space="preserve">
+    <value>एन्क्रिप्शन लॉकर</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="AT_TblkPageTitle" xml:space="preserve">
+    <value>बटन जानकारी टॉगल करें</value>
+  </data>
+  <data name="UMP_ButContinue" xml:space="preserve">
+    <value>जारी रहना</value>
+  </data>
+  <data name="UMP_ButLockerReset" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर रीसेट करें</value>
+  </data>
+  <data name="UMP_Reset_Aborted" xml:space="preserve">
+    <value>निरस्त रीसेट करें</value>
+  </data>
+  <data name="EP_Error_LockerAccess" xml:space="preserve">
+    <value>फ़ोल्डर नहीं खोल सका या फ़ोल्डर में पढ़ने और लिखने के लिए।</value>
+  </data>
+  <data name="EP_Error_FilePath" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर के लिए फ़ाइल पथ कॉन्फ़िगरेशन मान से मेल नहीं खाता है। क्या आपने लॉकर फ़ोल्डर का नाम बदल दिया या स्थानांतरित किया या हटा दिया?</value>
+  </data>
+  <data name="EP_Error_LockerReset_Required" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर रीसेट करने के लिए निम्न बटन क्लिक करें। फ़ोल्डर बनाने के लिए एक ही फ़ोल्डर का चयन करें और पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="EP_Error_LockerNotFound" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर नहीं मिला। क्या आपने फ़ोल्डर का नाम बदल दिया या स्थानांतरित किया या हटा दिया? क्या आपने यूएसबी ड्राइव, एसडी कार्ड, या हटाने योग्य ड्राइव को हटा दिया था जो फ़ोल्डर चालू था? आवेदन से बाहर निकलें और हटाए गए डिवाइस डालें और पुनः प्रयास करें। अन्यथा लॉकर फ़ोल्डर रीसेट करने के लिए निम्न बटन क्लिक करें।</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg01" xml:space="preserve">
+    <value>पर लॉकर फ़ोल्डर मिला</value>
+  </data>
+  <data name="EP_Success_PageLoad_Msg02" xml:space="preserve">
+    <value>एप्लिकेशन ने फ़ोल्डर को एक्सेस पढ़ और लिख लिया है</value>
+  </data>
+  <data name="EP_Error_Password_NotValid" xml:space="preserve">
+    <value>पासवर्ड मान्य नहीं है। कृपया पुन: प्रयास करें। पांच प्रयासों के बाद लॉकर रीसेट शुरू किया जाएगा।</value>
+  </data>
+  <data name="EP_TblkPageMsg" xml:space="preserve">
+    <value>अनलॉक करने और लॉकर फ़ोल्डर खोलने के लिए पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="EP_TblkPageTitle" xml:space="preserve">
+    <value>आवेदन पासवर्ड प्रविष्टि</value>
+  </data>
+  <data name="UMP_Error_Password_Hash" xml:space="preserve">
+    <value>पासवर्ड हैश नहीं कर सका ।  अलग पासवर्ड आज़माएं ।</value>
+  </data>
+  <data name="HP_ButDecryptLocker" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर डिक्रिप्ट करें</value>
+  </data>
+  <data name="HP_ButDecryptFile" xml:space="preserve">
+    <value>फ़ाइल डिक्रिप्ट करें</value>
+  </data>
+  <data name="HP_ButDeleteFile" xml:space="preserve">
+    <value>सुरक्षित फ़ाइल हटाएं</value>
+  </data>
+  <data name="HP_ButDeleteFolder" xml:space="preserve">
+    <value>सुरक्षित फ़ोल्डर हटाएं</value>
+  </data>
+  <data name="HP_ButEncryptLocker" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर एन्क्रिप्ट करें</value>
+  </data>
+  <data name="HP_ButEncryptFile" xml:space="preserve">
+    <value>फ़ाइल एन्क्रिप्ट करें</value>
+  </data>
+  <data name="HP_ButEncryptFolder" xml:space="preserve">
+    <value>फ़ोल्डर एन्क्रिप्ट करें</value>
+  </data>
+  <data name="HP_ButLockerView" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर देखें</value>
+  </data>
+  <data name="HP_LockerAvailable" xml:space="preserve">
+    <value>वर्तमान लॉकर फ़ोल्डर है</value>
+    <comment>Show path to Locker.</comment>
+  </data>
+  <data name="HP_LockerAvailable_SampleFiles" xml:space="preserve">
+    <value>के साथ प्रयोग करने के लिए लॉकर फ़ोल्डर में नमूना फ़ोल्डर्स और फ़ाइलों को बनाया.  अनुप्रयोग निर्देश और युक्तियां देखने के लिए फ़ाइलों में से कोई एक खोलें ।</value>
+  </data>
+  <data name="HP_TblkMsgSettings" xml:space="preserve">
+    <value>निम्नलिखित सेटिंग्स को बदलने के लिए कॉन्फ़िगरेशन बटन पर क्लिक करें</value>
+  </data>
+  <data name="HP_TblkPageTitle" xml:space="preserve">
+    <value>आवेदन एन्क्रिप्शन और डिक्रिप्शन</value>
+  </data>
+  <data name="UMP_LockerReset_Msg01" xml:space="preserve">
+    <value>आपके पास एकाधिक लॉकर फ़ोल्डर्स हो सकते हैं। प्रत्येक फ़ोल्डर में अद्वितीय पासवर्ड हो सकता है।</value>
+  </data>
+  <data name="MP_ButAbout" xml:space="preserve">
+    <value>जानकारी</value>
+  </data>
+  <data name="MP_ButSettings" xml:space="preserve">
+    <value>विन्यास</value>
+  </data>
+  <data name="UMP_LockerReset_Title" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर रीसेट करें</value>
+  </data>
+  <data name="UMP_Reset_Yes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="UMP_Reset_No" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="SP_PwBoxPw1_PlaceholderText" xml:space="preserve">
+    <value>पासवर्ड दर्ज करें</value>
+  </data>
+  <data name="SF_ButFolderPicker" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर विन्यास</value>
+  </data>
+  <data name="SF_Error_Picker_FolderException" xml:space="preserve">
+    <value>चयनित फ़ोल्डर तक पठन और लेखन पहुँच प्राप्त नहीं कर सकता.  फ़ोल्डर किसी सुरक्षित स्थान पर है.  किसी भिन्न स्थान में फ़ोल्डर बनाएँ.</value>
+  </data>
+  <data name="SF_CboxSamples" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर में नमूना फ़ोल्डर और फ़ाइलें बनाएँ।</value>
+  </data>
+  <data name="SF_CreateSample_Intro" xml:space="preserve">
+    <value>निर्देश और सलाह:</value>
+  </data>
+  <data name="SF_CreateSample_Closing" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर में बनाए गए नमूना फ़ोल्डर और फ़ाइलों को एन्क्रिप्ट और डिक्रिप्ट करके एप्लिकेशन का उपयोग करना सीखें। आवेदन दर और समीक्षा करें।</value>
+  </data>
+  <data name="SF_SampleFilename2" xml:space="preserve">
+    <value>नमूना फ़ाइल</value>
+  </data>
+  <data name="SF_SampleFoldername" xml:space="preserve">
+    <value>नमूना फ़ोल्डर</value>
+  </data>
+  <data name="SF_Msg01" xml:space="preserve">
+    <value>नया फ़ोल्डर बनाएं या मौजूदा फ़ोल्डर का चयन करें।</value>
+  </data>
+  <data name="SF_Msg02" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर रीसेट विकल्प का चयन किया गया था या यह पहली बार आवेदन की शुरुआत है।</value>
+  </data>
+  <data name="SF_TblkPageTitle" xml:space="preserve">
+    <value>एप्लिकेशन फ़ोल्डर विन्यास</value>
+  </data>
+  <data name="SP_PwBoxPw2_PlaceholderText" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि करें</value>
+  </data>
+  <data name="SP_Success_Password_Match" xml:space="preserve">
+    <value>पासवर्ड मेल खाते हैं ।  लॉकर फ़ोल्डर के लिए पासवर्ड का उपयोग करने के लिए निम्न बटन क्लिक करें ।</value>
+  </data>
+  <data name="SP_Error_Password_Setup" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर सेटअप डेटा को सहेज नहीं सका। कृपया अलग पासवर्ड आज़माएं।</value>
+  </data>
+  <data name="SP_Error_Password_Length" xml:space="preserve">
+    <value>पासवर्ड में कम से कम चार वर्ण होने चाहिए। कृपया अलग पासवर्ड आज़माएं।</value>
+  </data>
+  <data name="UMP_SP_Msg03" xml:space="preserve">
+    <value>आवेदन अमान्य पासवर्ड को अस्वीकार कर देगा। न्यूनतम पासवर्ड लंबाई चार वर्ण है।</value>
+  </data>
+  <data name="UMP_SP_Msg01" xml:space="preserve">
+    <value>एप्लिकेशन कहीं भी पासवर्ड सहेजता नहीं है। यदि आप एन्क्रिप्ट करने के लिए इस्तेमाल पासवर्ड भूल जाते हैं तो आप एन्क्रिप्टेड डेटा तक पहुंच खो देंगे।</value>
+  </data>
+  <data name="SP_TblkPageTitle" xml:space="preserve">
+    <value>आवेदन पासवर्ड विन्यास</value>
+  </data>
+  <data name="ST_ButAboutToggles" xml:space="preserve">
+    <value>बटन जानकारी टॉगल करें</value>
+  </data>
+  <data name="ST_TblkPageTitle" xml:space="preserve">
+    <value>आवेदन विन्यास</value>
+  </data>
+  <data name="ST_TogDeleteSecure" xml:space="preserve">
+    <value>सुरक्षित हटाएं मोड</value>
+  </data>
+  <data name="ST_TogVerbose" xml:space="preserve">
+    <value>वर्बोज़ मोड</value>
+  </data>
+  <data name="AB_ButCryptoLink1" xml:space="preserve">
+    <value>क्रिप्टोग्राफी</value>
+  </data>
+  <data name="AB_ButCryptoLink2" xml:space="preserve">
+    <value>उन्नत एन्क्रिप्शन मानक (एईएस)</value>
+  </data>
+  <data name="AB_ButCryptoLink3" xml:space="preserve">
+    <value>प्रारंभिक वेक्टर</value>
+  </data>
+  <data name="AB_ButCryptoLink4" xml:space="preserve">
+    <value>ब्लॉक सिफर मोड</value>
+  </data>
+  <data name="AB_ButProgrammerEmail" xml:space="preserve">
+    <value>ईमेल समर्थन</value>
+  </data>
+  <data name="AB_TblkLink" xml:space="preserve">
+    <value>क्रिप्टोग्राफी के बारे में अधिक जानने के लिए वेबसाइट लिंक पर क्लिक करें।</value>
+  </data>
+  <data name="AB_TblkPageTitle" xml:space="preserve">
+    <value>आवेदन की सूचना</value>
+  </data>
+  <data name="AB_TblkPayment" xml:space="preserve">
+    <value>आवेदन के लिए मूल्य $ 2.99 है। मूल्यांकन के लिए आवेदन असीमित नि: शुल्क परीक्षण अवधि है। एक बार खरीदें और अपने सभी विंडोज 10 उपकरणों पर उपयोग करें। आवेदन दर और समीक्षा करें।</value>
+  </data>
+  <data name="AB_TblkProgrammer" xml:space="preserve">
+    <value>त्रुटियों की रिपोर्ट करने या अन्य टिप्पणियों या सुझावों की पेशकश करने के लिए निम्नलिखित ईमेल लिंक का उपयोग करें। अनुप्रयोग संस्करण है</value>
+  </data>
+  <data name="UMP_AB_Msg06" xml:space="preserve">
+    <value>आवेदन सत्यापित करता है कि प्रत्येक शुरुआत पर खरीद पूरी हो गई है या नहीं। खरीद की पुष्टि होने के बाद यह सत्यापन प्रक्रिया छोड़ दी जाएगी। आवेदन खरीदे जाने तक परीक्षण मोड में रहेगा। प्रत्येक मोड पर इस सत्यापन प्रक्रिया की असुविधा के अलावा परीक्षण मोड पूरी तरह कार्यात्मक है।</value>
+  </data>
+  <data name="UMP_AB_Msg07" xml:space="preserve">
+    <value>वस्तुओं को एन्क्रिप्ट करने या डिक्रिप्ट करने के बाद फ़ोल्डर में बदलावों के लिए एक पल लग सकता है। कभी-कभी फ़ोल्डर दृश्य अपडेट नहीं होगा। परिणाम देखने के लिए आपको मैन्युअल रूप से फ़ोल्डर रीफ्रेश करने की आवश्यकता हो सकती है।</value>
+  </data>
+  <data name="UMP_AB_Msg08" xml:space="preserve">
+    <value>विंडोज 10 प्रोग्रामर को सटीक स्थान फ़ोल्डर और फ़ाइल पिकर्स को भी खोलने की अनुमति नहीं देता है। प्रोग्रामर केवल सीमित स्थानों की सीमित संख्या से स्थान शुरू करने का सुझाव दे सकता है। नतीजा यह है कि पिकर अप्रत्याशित स्थान पर खुल सकता है या उस स्थान को खोलने का प्रयास कर सकता है जो अब मौजूद नहीं है क्योंकि फ़ाइल को संग्रह फ़ाइल में एन्क्रिप्ट किया गया था। वांछित आइटम का चयन करने के लिए आपको लॉकर फ़ोल्डर में मैन्युअल रूप से नेविगेट करने की आवश्यकता हो सकती है।</value>
+  </data>
+  <data name="UMP_AB_Msg11" xml:space="preserve">
+    <value>अस्वीकरण: आप इस एप्लिकेशन का उपयोग करने के सभी जोखिम मानते हैं। प्रोग्रामर ने आवेदन कार्यों को सुरक्षित और सही तरीके से सत्यापित करने के लिए व्यापक शोध और परीक्षण किया है। किसी भी मूल डेटा का उपयोग करने से पहले आवेदन निष्पादन सुनिश्चित करने के लिए अपने डेटा की प्रति का उपयोग करके इस एप्लिकेशन का परीक्षण करना आपकी ज़िम्मेदारी है। एप्लिकेशन कहीं भी आपका पासवर्ड सहेजता नहीं है। यदि आप डेटा एन्क्रिप्ट करने के लिए इस्तेमाल पासवर्ड भूल जाते हैं तो आप अपने डेटा को डिक्रिप्ट या एक्सेस नहीं कर पाएंगे।</value>
+  </data>
+  <data name="UMP_ToggleDeleteSecure_Msg" xml:space="preserve">
+    <value>सुरक्षित हटाने मोड के लिए डिफ़ॉल्ट सेटिंग बंद है। सुरक्षित हटाने मोड काफी प्रसंस्करण समय जोड़ता है और इसकी आवश्यकता नहीं हो सकती है। यह मोड मूल आइटम और किसी भी अस्थायी आइटम को यादृच्छिक पासवर्ड और हटाने से पहले यादृच्छिक प्रारंभिक वेक्टर के साथ प्रक्रिया में उपयोग किया जाता है। इन वस्तुओं को पुनर्प्राप्त नहीं किया जा सकता है। विंडोज 10 हटाने पर आइटम की सामग्री को हटा नहीं देता है। यह केवल डेटाबेस से आइटम नाम हटा देता है और उपलब्ध स्थान पर दिखाता है। हटाए गए आइटम की सामग्री अभी भी डिवाइस पर मौजूद हो सकती है क्योंकि विंडोज 10 रीसायकल बिन, फ़ाइल इतिहास, हाइबरनेशन फ़ाइल, पेज फ़ाइल, टेम्प फ़ाइलें, और अन्य सहित विभिन्न कैश का उपयोग करता है।</value>
+  </data>
+  <data name="UMP_ToggleVerbose_Msg" xml:space="preserve">
+    <value>वर्बोज़ मोड के लिए डिफ़ॉल्ट सेटिंग चालू है ।  वर्बोज़ मोड विस्तृत संदेश, सुझाव, और विभिन्न स्थानों पर सुझाव प्रदर्शित करता है ।  संक्षिप्त संदेश प्रदर्शित करने के लिए वर्बोज़ मोड को बंद करें ।</value>
+  </data>
+  <data name="UMP_SP_Msg02" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर के लिए पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="HP_Success_Encrypt" xml:space="preserve">
+    <value>को गोपित</value>
+  </data>
+  <data name="HP_Error_Encrypt_ProcessFail" xml:space="preserve">
+    <value>चूंकि एन्क्रिप्शन प्रक्रिया विफल रही है</value>
+  </data>
+  <data name="HP_Error_Encrypt_FileIsEncrypted" xml:space="preserve">
+    <value>चूंकि पहले ही एन्क्रिप्टेड है</value>
+  </data>
+  <data name="HP_Error_HierarchyOutside" xml:space="preserve">
+    <value>फ़ोल्डर के बाहर स्थित है</value>
+  </data>
+  <data name="UMP_Error_Picker_NothingPicked" xml:space="preserve">
+    <value>कुछ भी नहीं चुना</value>
+  </data>
+  <data name="HP_Success_Decrypt" xml:space="preserve">
+    <value>डीक्रिप्ट</value>
+  </data>
+  <data name="HP_Error_Decrypt_ProcessFail" xml:space="preserve">
+    <value>चूंकि डिक्रिप्शन प्रक्रिया विफल रही</value>
+  </data>
+  <data name="HP_Error_Decrypt_ItemExistDest" xml:space="preserve">
+    <value>{0} को डिक्रिप्ट नहीं कर सका क्योंकि {1} में पहले से नाम वाला आइटम है {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_ParentFolder" xml:space="preserve">
+    <value>पढ़ने और पैरेंट फ़ोल्डर तक पहुँच लिखने के बाद से प्राप्त नहीं कर सका</value>
+  </data>
+  <data name="MP_UnhandledException_Msg" xml:space="preserve">
+    <value>विधि में अनचाहे अपवाद हुआ:</value>
+  </data>
+  <data name="MP_Success_FolderCheck_NoArchive" xml:space="preserve">
+    <value>मिला या बनाया फ़ोल्डर</value>
+  </data>
+  <data name="MP_Error_FolderCheck_NoArchive" xml:space="preserve">
+    <value>फ़ोल्डर नहीं ढूंढ या बना सका</value>
+  </data>
+  <data name="HP_Error_Encrypt_ItemExistDest" xml:space="preserve">
+    <value>{0} को एंक्रिप्ट नहीं कर सका क्योंकि {1} के नाम {2} के साथ पहले से आइटम हैं</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_ProcessingItem" xml:space="preserve">
+    <value>प्रसंस्करण</value>
+  </data>
+  <data name="HP_PickFile_Delete" xml:space="preserve">
+    <value>सुरक्षित रूप से हटाने के लिए फ़ाइल चुनें</value>
+  </data>
+  <data name="HP_PickFolder_Delete" xml:space="preserve">
+    <value>सुरक्षित रूप से हटाने के लिए फ़ोल्डर चुनें</value>
+  </data>
+  <data name="HP_Success_FileExplorer" xml:space="preserve">
+    <value>फ़ाइल एक्सप्लोरर {0} को खोला गया</value>
+  </data>
+  <data name="HP_Error_DeleteSecure" xml:space="preserve">
+    <value>हटाएं सुरक्षित नहीं कर सका</value>
+  </data>
+  <data name="HP_Success_DeleteSecure" xml:space="preserve">
+    <value>सुरक्षित हटा दिया गया</value>
+  </data>
+  <data name="HP_ButDecryptFolder" xml:space="preserve">
+    <value>डिक्रिप्ट फ़ोल्डर</value>
+  </data>
+  <data name="SF_Msg03" xml:space="preserve">
+    <value>विंडोज 10 अनुप्रयोगों को अनुमति के बिना व्यक्तिगत फ़ोल्डर और फ़ाइलों तक पहुंचने की अनुमति नहीं देता है। एप्लिकेशन अनुमति देने के लिए नया फ़ोल्डर बनाएं या मौजूदा फ़ोल्डर का चयन करें।</value>
+  </data>
+  <data name="SF_Msg05" xml:space="preserve">
+    <value>स्थान और लॉकर फ़ोल्डर का नाम सेट करने के लिए निम्न बटन क्लिक करें।</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedPlural" xml:space="preserve">
+    <value>आइटम संसाधित नहीं किया गया</value>
+  </data>
+  <data name="HP_ButCreateFolderNoArchive" xml:space="preserve">
+    <value>एईएस फ़ोल्डर बनाएँ</value>
+  </data>
+  <data name="HP_PickFile_Decrypt" xml:space="preserve">
+    <value>डीक्रिप्ट करने के लिए फ़ाइल का चयन करें</value>
+  </data>
+  <data name="SF_SampleFilename1" xml:space="preserve">
+    <value>निर्देश और सलाह</value>
+  </data>
+  <data name="HP_Error_Decrypt_FolderFilesFailed" xml:space="preserve">
+    <value>{1} में डिक्रिप्ट {0} फ़ाइलें</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Encrypt_FolderFilesFailed" xml:space="preserve">
+    <value>{1} में एन्क्रिप्टेड {0} फ़ाइलें</value>
+    <comment>Error header shown before displaying a list of items not processed. Translate whole phrase.</comment>
+  </data>
+  <data name="SF_Success_Picker_Msg1" xml:space="preserve">
+    <value>चयनित फ़ोल्डर था:</value>
+  </data>
+  <data name="HP_Error_Encrypt_WrapperFolder" xml:space="preserve">
+    <value>चूंकि रैपर फ़ोल्डर नहीं बना सका</value>
+  </data>
+  <data name="HP_Error_Encrypt_FlagFile" xml:space="preserve">
+    <value>चूंकि ध्वज फ़ाइल नहीं बना सका</value>
+  </data>
+  <data name="HP_Error_Decrypt_FileListFailed" xml:space="preserve">
+    <value>डिक्रिप्ट {0} लेकिन फ़ाइलों की सूची नहीं मिल सका, डिक्रिप्ट की गई सामग्री {1} में है</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="HP_Error_Decrypt_FileGetFailed" xml:space="preserve">
+    <value>डिक्रिप्ट {0} लेकिन {1} नहीं मिला, फ़ोल्डर में डिक्रिप्ट की गई फ़ाइल छोड़ी गई {2}</value>
+    <comment>Translate whole phrase.</comment>
+  </data>
+  <data name="UMP_AB_Msg01" xml:space="preserve">
+    <value>एप्लिकेशन उन्नत एन्क्रिप्शन मानक (एईएस) का उपयोग कर फ़ोल्डर और फ़ाइलों को एन्क्रिप्ट और डिक्रिप्ट करता है। डेटा को एप्लिकेशन से स्वतंत्र रूप से संग्रहीत किया जाता है और यदि एप्लिकेशन अनइंस्टॉल किया जाता है तो उसे हटाया नहीं जाएगा। डिवाइस पर स्थापित किसी भी एप्लिकेशन द्वारा डिक्रिप्ट किया गया डेटा पहुंच योग्य है।</value>
+    <comment>This is used in ManifestResourses.resw file too!</comment>
+  </data>
+  <data name="UMP_AB_Msg02" xml:space="preserve">
+    <value>एन्क्रिप्शन और डिक्रिप्शन प्रक्रियाएं डिवाइस मेमोरी के एक सन्निहित ब्लॉक का उपयोग करती हैं। अधिकतम फ़ाइल आकार जिसे संसाधित किया जा सकता है वह विंडोज 10 की सीमा तक उपलब्ध डिवाइस मेमोरी पर निर्भर है। 64-बिट उपकरणों पर सीमा चार gibibyte है। 32-बिट उपकरणों पर सीमा दो गिबिबाइट के बारे में है। प्रोग्रामर के पास बारह जिब्बीते कंप्यूटर होते हैं और उसने चार जिबीबेट फाइलों को संसाधित किया है। प्रक्रियाओं ने सभी डिवाइस मेमोरी का उपयोग किया और विस्तारित समय के लिए एसएसडी का अधिकतम उपयोग किया। आप कम सक्षम डिवाइस पर फ़ाइलों को डिक्रिप्ट करने में सक्षम नहीं हो सकते हैं। वर्कअराउंड उपयोग की जाने वाली न्यूनतम डिवाइस की क्षमता के लिए फ़ाइल का आकार सीमित है।</value>
+  </data>
+  <data name="UMP_AB_Msg03" xml:space="preserve">
+    <value>एप्लिकेशन डेटा एन्क्रिप्ट और डिक्रिप्ट करने के लिए दो विधियां प्रदान करता है। प्रत्येक विधि के फायदे और नुकसान होते हैं। डेटा आकार और इच्छित उपयोग के आधार पर उपयोग करने के लिए कौन सी विधि चुनें।</value>
+  </data>
+  <data name="UMP_AB_Msg04" xml:space="preserve">
+    <value>पहली विधि फ़ोल्डर या फ़ाइल को एक संग्रह फ़ाइल में रखती है और फिर संग्रह फ़ाइल को एन्क्रिप्ट करता है। फ़ोल्डर में फ़ाइलों को देखा नहीं जा सकता क्योंकि उन्हें एक फ़ाइल में रखा गया था। सामग्री साझा करना सरल है क्योंकि केवल एक फ़ाइल को आदान-प्रदान की आवश्यकता है। इस विधि की सीमा यह एन्क्रिप्ट करने के लिए एक बड़ी फ़ाइल बनाता है। यह विधि कई छोटी फ़ाइलों के विरुद्ध एक बड़ी फ़ाइल एन्क्रिप्ट करने के बाद से दूसरी विधि की तुलना में डिवाइस मेमोरी सीमा से अधिक हो जाएगी। यह विधि हमेशा दूसरी विधि से धीमी है।</value>
+  </data>
+  <data name="UMP_AB_Msg05" xml:space="preserve">
+    <value>दूसरी विधि एईएस फ़ोल्डर के पदानुक्रम में स्थित व्यक्तिगत फाइलों को एन्क्रिप्ट करता है। यह विधि हमेशा पहली विधि से तेज़ होती है क्योंकि फ़ोल्डरों को एक फ़ाइल में संग्रहीत नहीं किया जाता है। किसी भी आकार के फ़ोल्डर एन्क्रिप्टेड किया जा सकता है। अगर यह ऊपर चर्चा की गई डिवाइस सीमा से अधिक है तो फ़ाइल एन्क्रिप्ट नहीं की जाएगी। एप्लिकेशन एन्क्रिप्टेड फ़ाइलों की सूची दिखाएगा। इस विधि की सीमा एक फ़ोल्डर में फाइलें दिखाई दे रही हैं। इस सीमा को सामान्य फ़ोल्डर और फ़ाइल नाम जैसे फ़ोल्डर 01 और फ़ाइल 01 का उपयोग करके कम किया जा सकता है। इस विधि का उपयोग कर डेटा साझा करना अधिक जटिल है क्योंकि एकाधिक फ़ोल्डर्स और फ़ाइलों को एक्सचेंज करने की आवश्यकता है।</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOff" xml:space="preserve">
+    <value>सुरक्षित हटाएं मोड बंद है</value>
+  </data>
+  <data name="ST_ModeDeleteSecureOn" xml:space="preserve">
+    <value>सुरक्षित हटाएं मोड चालू है</value>
+  </data>
+  <data name="ST_ModeToggleMsg" xml:space="preserve">
+    <value>ऊपर टॉगल स्विच का उपयोग कर के अनुप्रयोग कॉन्फ़िगरेशन परिवर्तित करें।  टॉगल स्विच के बारे में अधिक जानकारी के लिए ऊपर क्लिक करें बटन.</value>
+  </data>
+  <data name="ST_ModeVerboseOff" xml:space="preserve">
+    <value>वर्बोज़ मोड बंद है</value>
+  </data>
+  <data name="ST_ModeVerboseOn" xml:space="preserve">
+    <value>वर्बोज़ मोड चालू है</value>
+  </data>
+  <data name="EP_PwBox_PlaceholderText" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="SF_Msg04" xml:space="preserve">
+    <value>अगर एक्सटेंशन 'आर्क' या 'एईएस' है तो फ़ाइल एन्क्रिप्ट की जाती है। विंडोज 10 डिफ़ॉल्ट रूप से फ़ाइल एक्सटेंशन नहीं दिखाता है। फ़ाइल एक्सप्लोरर खोलकर फ़ाइल एक्सटेंशन चालू करें। रिबन मेनू का पर्दाफाश करने के लिए ऊपरी मेनू में टैब देखें पर क्लिक करें। फ़ाइल नाम एक्सटेंशन के बगल में स्थित चेक बॉक्स।</value>
+  </data>
+  <data name="UMP_Reset_Msg" xml:space="preserve">
+    <value>रीसेट आपके लॉकर फ़ोल्डर में किसी आइटम को नहीं हटाएगा।</value>
+  </data>
+  <data name="UMP_LockerReset_Msg02" xml:space="preserve">
+    <value>आप प्रत्येक व्यक्ति या समूह के लिए अलग लॉकर फ़ोल्डर्स बना सकते हैं जिसके साथ आप गोपनीय जानकारी का आदान-प्रदान करते हैं। इस एप्लिकेशन से एन्क्रिप्टेड फ़ाइलों को ईमेल पर संलग्न करें और फिर उन्हें सुरक्षित रूप से आगे भेज दें। आप अपने अन्य लॉकर फ़ोल्डरों में उपयोग किए गए पासवर्ड को सहेजने के लिए अपने प्राथमिक लॉकर फ़ोल्डर में एक मास्टर पासवर्ड फ़ाइल बनाना चाह सकते हैं।</value>
+  </data>
+  <data name="UMP_LockerReset_Msg03" xml:space="preserve">
+    <value>विभिन्न लॉकर फ़ोल्डर में स्विच करने के लिए निम्न बटन क्लिक करें। फिर फ़ोल्डर को मूल रूप से बनाए जाने पर उसी पासवर्ड को दर्ज करें।</value>
+  </data>
+  <data name="MP_UnhandledException_Type" xml:space="preserve">
+    <value>अपवाद प्रकार:</value>
+  </data>
+  <data name="HP_ItemPathsNotProcessedSingle" xml:space="preserve">
+    <value>आइटम संसाधित नहीं किया गया</value>
+  </data>
+  <data name="SF_Success_Picker_Msg2" xml:space="preserve">
+    <value>इस फ़ोल्डर का उपयोग करने के लिए निम्न बटन क्लिक करें। विभिन्न फ़ोल्डर का चयन करने के लिए उपरोक्त बटन पर क्लिक करें।</value>
+  </data>
+  <data name="SF_Msg06" xml:space="preserve">
+    <value>चयनित फ़ोल्डर लॉकर फ़ोल्डर बन जाता है। एप्लिकेशन को चयनित फ़ोल्डर के अंदर फ़ोल्डर्स और फ़ाइलों तक पहुंच पढ़ना और लिखना होगा।</value>
+  </data>
+  <data name="UMP_AB_Msg09" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर में सभी आइटम डिक्रिप्ट करके लॉकर पासवर्ड बदलें। फिर लॉकर फ़ोल्डर रीसेट करें। एक ही फ़ोल्डर का चयन करें लेकिन नया पासवर्ड इस्तेमाल करें। फ़ोल्डर में आइटम को नए पासवर्ड का उपयोग करके एन्क्रिप्ट किया जाएगा।</value>
+  </data>
+  <data name="UMP_SP_Msg04" xml:space="preserve">
+    <value>आप पासवर्ड के लिए लगभग कुछ भी दर्ज कर सकते हैं। लंबे और जटिल पासवर्ड हैकिंग के लिए अधिक प्रतिरोधी हैं।</value>
+  </data>
+  <data name="HP_Timer" xml:space="preserve">
+    <value>({0:N2} सेकंड)</value>
+  </data>
+  <data name="HP_Error_Decrypt" xml:space="preserve">
+    <value>डिक्रिप्ट नहीं कर सका</value>
+  </data>
+  <data name="HP_Error_Encrypt" xml:space="preserve">
+    <value>एन्क्रिप्ट नहीं कर सका</value>
+  </data>
+  <data name="A Comment" xml:space="preserve">
+    <value>Hindi = hi
+
+In some following resources, use complete concatenated output string for translation.  In those cases, fill variable names using FileABC and FolderXYZ.  These cases are flagged in Comment column via 'Translate whole phrase.'
+
+Note: Right-to-Left languages such as Arabic and Hebrew will not translate well in this application since it uses concatenation extensively.</value>
+    <comment>Programmer comment about translations.  Value not used in application.</comment>
+  </data>
+  <data name="HP_Error_DeleteSecure_ProcessFail" xml:space="preserve">
+    <value>चूंकि सुरक्षित हटाने की प्रक्रिया विफल रही है</value>
+  </data>
+  <data name="MP_ButBack" xml:space="preserve">
+    <value></value>
+    <comment>Back button = U+E72B in Segoe MDL2 Assets font..  See notes top of MainPage.xaml</comment>
+  </data>
+  <data name="UMP_AB_Msg10" xml:space="preserve">
+    <value>यदि आप देश सीमाओं को पार कर रहे हैं तो प्राधिकरण आपको डिवाइस पर किसी भी एन्क्रिप्टेड डेटा को डिक्रिप्ट करने के लिए कह सकते हैं या वे डिवाइस को जब्त कर सकते हैं। डेटा को सुरक्षित करने का एक समाधान सीमा पार करने से पहले इस एप्लिकेशन को हटा देता है और फिर सीमा के दूसरी तरफ एप्लिकेशन को पुनर्स्थापित करता है। डेटा डिवाइस पर रहेगा और किसी साधारण फ़ोल्डर और फ़ाइलों के रूप में दिखाई देगा। यदि एप्लिकेशन इंस्टॉल नहीं है तो डेटा तक पहुंचा नहीं जा सकता है। स्टार्ट मेनू और टास्कबार से हटाकर इस एप्लिकेशन को छिपाने पर भी विचार करें।</value>
+  </data>
+  <data name="HP_Error_LockerNotFound" xml:space="preserve">
+    <value>लॉकर फ़ोल्डर नहीं मिला। एप्लिकेशन खोलने के दौरान आपने लॉकर फ़ोल्डर का नाम बदल या स्थानांतरित या हटा दिया था? एप्लिकेशन से बाहर निकलें और लॉकर फ़ोल्डर को रीसेट करने के लिए फिर से शुरू करें।</value>
+  </data>
+  <data name="HP_PickFile_Encrypt" xml:space="preserve">
+    <value>एन्क्रिप्ट करने के लिए फ़ाइल का चयन करें</value>
+  </data>
+  <data name="HP_PickFolder_Decrypt" xml:space="preserve">
+    <value>डीक्रिप्ट करने के लिए फ़ोल्डर चुनें</value>
+  </data>
+  <data name="ST_CboxItem_LanguageDevice" xml:space="preserve">
+    <value>डिवाइस</value>
+  </data>
+  <data name="ST_CboxItem_LanguageEN" xml:space="preserve">
+    <value>अंग्रेज़ी</value>
+  </data>
+  <data name="ST_CboxItem_LanguageES" xml:space="preserve">
+    <value>स्पेनिश</value>
+  </data>
+  <data name="ST_CboxLanguage_PlaceholderText" xml:space="preserve">
+    <value>भाषा चुनिए</value>
+  </data>
+  <data name="ST_TblkLanguageMsg" xml:space="preserve">
+    <value>एप्लिकेशन भाषा का चयन करें। यदि चयन बदला जाता है तो आवेदन बंद हो जाएगा। चयनित भाषा अगले एप्लिकेशन प्रारंभ को लोड करेगी।</value>
+  </data>
+  <data name="EP_Error_LockdownActivated" xml:space="preserve">
+    <value>लॉकर रीसेट की आवश्यकता है क्योंकि गलत पासवर्ड पांच बार दर्ज किया गया है।</value>
+  </data>
+  <data name="HP_Error_FileLocked" xml:space="preserve">
+    <value>चूंकि फ़ाइल अवरोधित है ।  अंय अनुप्रयोग फ़ाइल का उपयोग कर रहा हो सकता है ।</value>
+  </data>
+  <data name="HP_Error_FolderLocked" xml:space="preserve">
+    <value>चूंकि फ़ोल्डर लॉक है। एक और अनुप्रयोग फ़ोल्डर में एक फाइल का उपयोग कर सकता है।</value>
+  </data>
+  <data name="HP_PickFolder_Encrypt" xml:space="preserve">
+    <value>एन्क्रिप्ट करने के लिए फ़ोल्डर चुनें</value>
+  </data>
+  <data name="ST_ModeExitAppOff" xml:space="preserve">
+    <value>बाहर निकलें अनुप्रयोग मोड बंद है</value>
+  </data>
+  <data name="ST_ModeExitAppOn" xml:space="preserve">
+    <value>बाहर निकलें अनुप्रयोग मोड चालू है</value>
+  </data>
+  <data name="UMP_ToggleExitApp_Msg" xml:space="preserve">
+    <value>बाहर निकलें अनुप्रयोग मोड के लिए डिफ़ॉल्ट सेटिंग बंद है ।  लॉकर फ़ोल्डर एंक्रिप्टेड है के बाद आवेदन बाहर नहीं होगा । लॉकर फ़ोल्डर एंक्रिप्टेड है के बाद आवेदन बाहर निकलने के लिए बाहर निकलें अनुप्रयोग मोड पर चालू करें ।</value>
+  </data>
+  <data name="ST_TogExitApp" xml:space="preserve">
+    <value>बाहर निकलें अनुप्रयोग मोड</value>
+  </data>
+  <data name="UMP_ButRateApp" xml:space="preserve">
+    <value>मूल्यांकन और इस आवेदन की समीक्षा</value>
+  </data>
+  <data name="ST_ApplicationReset_Title" xml:space="preserve">
+    <value>एप्लिकेशन सेटिंग्स रीसेट करें?</value>
+  </data>
+  <data name="ST_ButAppReset" xml:space="preserve">
+    <value>एप्लिकेशन रीसेट करें</value>
+  </data>
+  <data name="ST_TblkAppResetMsg" xml:space="preserve">
+    <value>एप्लिकेशन को डिफ़ॉल्ट सेटिंग्स में रीसेट करें।</value>
+  </data>
+  <data name="ST_CboxItem_LanguageHI" xml:space="preserve">
+    <value>हिंदी</value>
+  </data>
+  <data name="SP_Error_Password_Match" xml:space="preserve">
+    <value>पासवर्ड मेल नहीं खाते।</value>
+  </data>
+  <data name="UMP_SP_Msg05" xml:space="preserve">
+    <value>एन्क्रिप्ट किया गया है जो किसी मौजूदा फ़ोल्डर में स्विच कर रहा है, तो फ़ोल्डर एन्क्रिप्ट करने के लिए उपयोग किया गया एक ही पासवर्ड का उपयोग करना चाहिए।</value>
+  </data>
+  <data name="HP_ButPurchaseApp" xml:space="preserve">
+    <value>खरीद आवेदन</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg1" xml:space="preserve">
+    <value>आवेदन की कीमत है:</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg2" xml:space="preserve">
+    <value>आवेदन नहीं खरीदा गया है।</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseFalseMsg3" xml:space="preserve">
+    <value>परीक्षण अवधि असीमित है। यह खरीद जांच आवेदन के प्रत्येक प्रारंभ पर होगी।</value>
+  </data>
+  <data name="LibMPC_StringAppPurchaseTrueMsg1" xml:space="preserve">
+    <value>आवेदन खरीदा गया है। धन्यवाद!</value>
+  </data>
+  <data name="HP_PurchaseBuyMsg" xml:space="preserve">
+    <value>आवेदन खरीदने का प्रयास।</value>
+  </data>
+  <data name="HP_PurchaseCheckMsg" xml:space="preserve">
+    <value>जाँच की जा रही है कि आवेदन खरीदा गया है या नहीं।</value>
+  </data>
+  <data name="UMP_Off" xml:space="preserve">
+    <value>बंद</value>
+    <comment>OffContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="UMP_On" xml:space="preserve">
+    <value>चालू</value>
+    <comment>OnContent for toggle buttons.  Should match result value.</comment>
+  </data>
+  <data name="ST_CboxItem_LanguageFR" xml:space="preserve">
+    <value>फ़्रेंच</value>
+  </data>
+  <data name="ST_CboxItem_LanguageZH" xml:space="preserve">
+    <value>चीनी (सरलीकृत)</value>
+  </data>
+</root>

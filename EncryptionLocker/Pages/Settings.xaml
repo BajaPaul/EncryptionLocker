@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="EncryptionLocker.Pages.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <RelativePanel x:Name="Rpanel">
+        <Rectangle x:Name="RectLayoutCenter" Width="4" Height="12" Fill="Red" Margin="0" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignTopWithPanel="True"/>
+        <Rectangle x:Name="RectLayoutLeft" Width="4" Height="12" Fill="Green" Margin="0,0,356,0" RelativePanel.LeftOf="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+        <Rectangle x:Name="RectLayoutRight" Width="4" Height="12" Fill="Blue" Margin="356,0,0,0" RelativePanel.RightOf="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+        <TextBlock x:Name="TblkPageTitle" Text="TblkPageTitle Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter"/>
+        <Button x:Name="ButAboutToggles" TabIndex="101" Content="ButAboutToggles Content" Margin="16,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.Below="TblkPageTitle" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Click="ButAboutToggles_Click"/>
+        
+        <ToggleSwitch x:Name="TogExitApp" TabIndex="102" Header="TogExitApp Header" Margin="16,2" RelativePanel.Below="ButAboutToggles" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Toggled="TogExitApp_Toggled" HorizontalAlignment="Center"/>
+        <ToggleSwitch x:Name="TogDeleteSecure" TabIndex="103" Header="TogDeleteSecure Header" Margin="16,2" RelativePanel.Below="TogExitApp" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Toggled="TogDeleteSecure_Toggled" HorizontalAlignment="Center"/>
+        <ToggleSwitch x:Name="TogVerbose" TabIndex="104" Header="TogVerbose Header" Margin="16,2" RelativePanel.Below="TogDeleteSecure" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Toggled="TogVerbose_Toggled" HorizontalAlignment="Center"/>
+        
+        <TextBlock x:Name="TblkResult" Text="TblkResult Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" IsTextSelectionEnabled="True" RelativePanel.Below="TogVerbose" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter"/>
+        <TextBlock x:Name="TblkLockerResetMsg" Text="TblkLockerResetMsg Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="TblkResult"/>
+        <Button x:Name="ButLockerReset" TabIndex="105" Content="ButLockerReset Content" Margin="16,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.Below="TblkLockerResetMsg" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Click="ButLockerReset_Click"/>
+        <TextBlock x:Name="TblkLanguageMsg" Text="TblkLanguageMsg Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="ButLockerReset"/>
+        <ComboBox x:Name="CboxLanguage" TabIndex="106" PlaceholderText="CboxLanguage PlaceHolderText" Margin="16,8" RelativePanel.Below="TblkLanguageMsg" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" SelectionChanged="CboxLanguage_SelectionChanged">
+            <!-- Do not change order of items below without editing 'CboxLanguage_SelectionChanged' event. Event output is reliant on index/sort order set here in XAML. -->
+            <ComboBoxItem x:Name="CboxItem_LanguageDevice" Content="Device"/>
+            <ComboBoxItem x:Name="CboxItem_LanguageEN" Content="English"/>
+            <ComboBoxItem x:Name="CboxItem_LanguageES" Content="Spanish"/>
+            <ComboBoxItem x:Name="CboxItem_LanguageHI" Content="Hindi"/>
+            <ComboBoxItem x:Name="CboxItem_LanguageFR" Content="French"/>
+            <ComboBoxItem x:Name="CboxItem_LanguageZH" Content="Chinese (Simplified)"/>
+        </ComboBox>
+        <TextBlock x:Name="TblkAppResetMsg" Text="TblkAppResetMsg Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="CboxLanguage"/>
+        <Button x:Name="ButAppReset" TabIndex="107" Content="ButAppReset Content" Margin="16,8,16,24" Style="{StaticResource ButtonRevealStyle}" RelativePanel.Below="TblkAppResetMsg" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" Click="ButAppReset_Click"/>
+    </RelativePanel>
+</Page>

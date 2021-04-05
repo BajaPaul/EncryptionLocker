@@ -1,0 +1,136 @@
+﻿<Page
+    x:Class="EncryptionLocker.Pages.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <RelativePanel x:Name="Rpanel">
+        <Rectangle x:Name="RectLayoutCenter" Width="4" Height="12" Fill="Red"   Margin="0" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignTopWithPanel="True"/>
+        <Rectangle x:Name="RectLayoutLeft" Width="4" Height="12" Fill="Green" Margin="0,0,356,0" RelativePanel.LeftOf="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+        <Rectangle x:Name="RectLayoutRight" Width="4" Height="12" Fill="Blue"  Margin="356,0,0,0" RelativePanel.RightOf="RectLayoutCenter" RelativePanel.AlignTopWithPanel="True"/>
+
+        <TextBlock x:Name="TblkPageTitle" Text="TblkPageTitle Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter"/>
+        <TextBlock x:Name="TblkMsgSettings" Text="TblkMsgSettings Text" Margin="16,2,16,0" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="TblkPageTitle"/>
+        
+        <RichTextBlock x:Name="RichTblkToggleStatus" Margin="16,-8,16,2" TextWrapping="WrapWholeWords" TextAlignment="Center" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="TblkMsgSettings">
+            <Paragraph x:Name="RichTblkToggleStatusParagraph">
+                RichTblkToggleStatus Text
+            </Paragraph>
+        </RichTextBlock>
+
+        <ProgressBar x:Name="PBarStatus" IsIndeterminate="False" Margin="16,8" MinHeight="8" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="RichTblkToggleStatus"/>
+        <TextBlock x:Name="TblkResult" Text="TblkResult Text" Margin="16,8" TextWrapping="WrapWholeWords" TextAlignment="Center" IsTextSelectionEnabled="True" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="PBarStatus"/>
+
+        <Button x:Name="ButLockerView" TabIndex="101" Content="ButLockerView Content" Margin="64,16,4,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutLeft" RelativePanel.Below="TblkResult" Click="ButLockerView_Click"/>
+        <Button x:Name="ButCreateFolderNoArchive" TabIndex="102" Content="ButCreateFolderNoArchive Content" Margin="4,16,64,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutRight" RelativePanel.Below="TblkResult" Click="ButCreateFolderNoArchive_Click"/>
+
+        <Button x:Name="ButEncryptLocker" TabIndex="103" Content="ButEncryptLocker Content" Margin="64,8,4,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutLeft" RelativePanel.Below="ButCreateFolderNoArchive" Click="ButEncryptLocker_Click"/>
+        <Button x:Name="ButDecryptLocker" TabIndex="104" Content="ButDecryptLocker Content" Margin="4,8,64,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutRight" RelativePanel.Below="ButCreateFolderNoArchive" Click="ButDecryptLocker_Click"/>
+
+        <Button x:Name="ButEncryptFile" TabIndex="105" Content="ButEncryptFile Content" Margin="64,8,4,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutLeft" RelativePanel.Below="ButDecryptLocker" Click="ButEncryptFile_Click"/>
+        <Button x:Name="ButDecryptFile" TabIndex="106" Content="ButDecryptFile Content" Margin="4,8,64,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutRight" RelativePanel.Below="ButDecryptLocker" Click="ButDecryptFile_Click"/>
+
+        <Button x:Name="ButEncryptFolder" TabIndex="107" Content="ButEncryptFolder Content" Margin="64,8,4,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutLeft" RelativePanel.Below="ButDecryptFile" Click="ButEncryptFolder_Click"/>
+        <Button x:Name="ButDecryptFolder" TabIndex="108" Content="ButDecryptFolder Content" Margin="4,8,64,8" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutRight" RelativePanel.Below="ButDecryptFile" Click="ButDecryptFolder_Click"/>
+
+        <Button x:Name="ButDeleteFile" TabIndex="109" Content="ButDeleteFile Content" Margin="64,8,4,24" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutLeft" RelativePanel.Below="ButDecryptFolder" Click="ButDeleteFile_Click"/>
+        <Button x:Name="ButDeleteFolder" TabIndex="110" Content="ButDeleteFolder Content" Margin="4,8,64,16" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutRight" RelativePanel.Below="ButDecryptFolder" Click="ButDeleteFolder_Click"/>
+
+        <!-- Next 2 items only used for application purchase processes. -->
+        <TextBlock x:Name="TblkPurchaseApp" Text="TblkPurchaseApp Text" Margin="16,0,16,8" TextAlignment="Center" TextWrapping="WrapWholeWords" IsTextSelectionEnabled="True" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="ButDeleteFolder"/>
+        <Button Name="ButPurchaseApp" Content="ButPurchaseApp Content" TabIndex="111" Margin="16,8,16,16" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="TblkPurchaseApp" Click="ButPurchaseApp_Click"/>
+
+        <!-- Only show next button occasionally if User has not attempted to rate App yet by selecting this button to rate App. -->
+        <Button x:Name="ButRateApp" TabIndex="111" Content="ButRateApp Content" Margin="16,0,16,16" Style="{StaticResource ButtonRevealStyle}" RelativePanel.AlignHorizontalCenterWith="RectLayoutCenter" RelativePanel.Below="ButPurchaseApp" Click="ButRateApp_Click"/>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+
+                <!--Wide Layout: Wide double-column layout. This default layout and is set by XAML code above.-->
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource VisualStateMedium}"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <!--Do nothing here since XAML settings above sets wide and medium layout.  This wide trigger is required.-->
+                    </VisualState.Setters>
+                </VisualState>
+
+                <!--Medium Layout: Condensed double-column layout.-->
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource VisualStateNarrow}"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <!--Do nothing here since XAML settings above sets wide and medium layout.  This medium trigger is required.-->
+                    </VisualState.Setters>
+                </VisualState>
+
+                <!--Narrow Layout: Condensed single-column layout.-->
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                        <Setter Target="ButLockerView.(RelativePanel.AlignLeftWith)" Value=""/>
+                        <Setter Target="ButLockerView.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <Setter Target="ButCreateFolderNoArchive.(RelativePanel.Below)" Value="ButLockerView"/>
+                        <Setter Target="ButCreateFolderNoArchive.(RelativePanel.AlignRightWith)" Value=""/>
+                        <Setter Target="ButCreateFolderNoArchive.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <!--<Setter Target="ButEncryptLocker.(RelativePanel.Below)" Value="ButCreateFolderNoArchive"/>-->
+                        <Setter Target="ButEncryptLocker.(RelativePanel.AlignLeftWith)" Value=""/>
+                        <Setter Target="ButEncryptLocker.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <Setter Target="ButDecryptLocker.(RelativePanel.Below)" Value="ButEncryptLocker"/>
+                        <Setter Target="ButDecryptLocker.(RelativePanel.AlignRightWith)" Value=""/>
+                        <Setter Target="ButDecryptLocker.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <!--<Setter Target="ButEncryptFile.(RelativePanel.Below)" Value="ButDecryptLocker"/>-->
+                        <Setter Target="ButEncryptFile.(RelativePanel.AlignLeftWith)" Value=""/>
+                        <Setter Target="ButEncryptFile.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <Setter Target="ButDecryptFile.(RelativePanel.Below)" Value="ButEncryptFile"/>
+                        <Setter Target="ButDecryptFile.(RelativePanel.AlignRightWith)" Value=""/>
+                        <Setter Target="ButDecryptFile.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <!--<Setter Target="ButEncryptFolder.(RelativePanel.Below)" Value="ButDecryptFile"/>-->
+                        <Setter Target="ButEncryptFolder.(RelativePanel.AlignLeftWith)" Value=""/>
+                        <Setter Target="ButEncryptFolder.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <Setter Target="ButDecryptFolder.(RelativePanel.Below)" Value="ButEncryptFolder"/>
+                        <Setter Target="ButDecryptFolder.(RelativePanel.AlignRightWith)" Value=""/>
+                        <Setter Target="ButDecryptFolder.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <!--<Setter Target="ButDeleteFile.(RelativePanel.Below)" Value="ButDecryptFolder"/>-->
+                        <Setter Target="ButDeleteFile.(RelativePanel.AlignLeftWith)" Value=""/>
+                        <Setter Target="ButDeleteFile.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <Setter Target="ButDeleteFolder.(RelativePanel.Below)" Value="ButDeleteFile"/>
+                        <Setter Target="ButDeleteFolder.(RelativePanel.AlignRightWith)" Value=""/>
+                        <Setter Target="ButDeleteFolder.(RelativePanel.AlignHorizontalCenterWith)" Value="RectLayoutCenter"/>
+
+                        <!--Margin Setting Order: left, top, right, bottom-->
+                        <Setter Target="ButLockerView.Margin" Value="16,16,16,8"/>
+                        <Setter Target="ButCreateFolderNoArchive.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButEncryptLocker.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButDecryptLocker.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButEncryptFile.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButDecryptFile.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButEncryptFolder.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButDecryptFolder.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButDeleteFile.Margin" Value="16,8,16,8"/>
+                        <Setter Target="ButDeleteFolder.Margin" Value="16,8,16,16"/>
+
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+    </RelativePanel>
+</Page>
